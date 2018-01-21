@@ -1,0 +1,68 @@
+#!/bin/bash
+
+f () {
+    errcode=$? # save the exit code as the first thing done in the trap function
+    echo "error $errorcode"
+    echo "the command executing at the time of the error was"
+    echo "$BASH_COMMAND"
+    echo "on line ${BASH_LINENO[0]}"
+    # do some error handling, cleanup, logging, notification
+    # $BASH_COMMAND contains the command that was being executed at the time of the trap
+    # ${BASH_LINENO[0]} contains the line number in the script of that command
+    # exit the script or return to try again, etc.
+    exit $errcode  # or use some other value or do return instead
+}
+trap f ERR
+
+PROJECTS_ZIP="/tmp/package.zip"
+
+SCRIPT=$(readlink -f $0)
+SCRIPTPATH=$(dirname $SCRIPT)
+
+WORKING=$(mktemp -d)
+
+echo "Working on ${WORKING}"
+
+trap "rm -rf ${WORKING}" EXIT
+
+PROJECT_HOME="${WORKING}/project"
+mkdir "${PROJECT_HOME}"
+
+unzip "${PROJECTS_ZIP}" -d "${PROJECT_HOME}"
+
+#5.1
+(cd "${PROJECT_HOME}/java/lib-example" && mvn org.codehaus.mojo:versions-maven-plugin:2.5:set -DremoveSnapshot -DgenerateBackupPoms=false)
+(cd "${PROJECT_HOME}/java/lib-example" && mvn clean install)
+
+#5.2
+(cd "${PROJECT_HOME}/java/app-example" && mvn org.codehaus.mojo:versions-maven-plugin:2.5:use-latest-versions -Dincludes='com.wwa.*:*' -DgenerateBackupPoms=false)
+(cd "${PROJECT_HOME}/java/app-example" && mvn org.codehaus.mojo:versions-maven-plugin:2.5:set -DremoveSnapshot -DgenerateBackupPoms=false)
+(cd "${PROJECT_HOME}/java/app-example" && mvn clean package)
+JAVA_APP_VERSION=$(cd "${PROJECT_HOME}/java/app-example" && mvn -q -Dexec.executable="echo" -Dexec.args='${project.version}' --non-recursive org.codehaus.mojo:exec-maven-plugin:1.3.1:exec)
+(cd "${PROJECT_HOME}/java/app-example" && java -jar "target/app-example-${JAVA_APP_VERSION}.jar")
+
+#5.3
+(cd "${PROJECT_HOME}/python/wwa_app_example" && find wwa_app_example -iname "*.py" -exec pylint {} \;)
+#tests fail, so we unset the trap
+trap - ERR
+(cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m unittest discover -v -s tests -p \*.py)
+trap f ERR
+(cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m setup sdist)
+(cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m setup bdist)
+(cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m virtualenv env && source env/bin/activate && python3 -m setup install && wwa_devops && deactivate)
+PYTHON_APP_VERSION=$(cd "${PROJECT_HOME}/python/wwa_app_example" && cat version.txt)
+
+(cd "${WORKING}" && git clone https://github.com/jpmsilva/packer-templates.git)
+
+PACKER_TEMPLATES="${WORKING}/packer-templates"
+
+(cd "${PACKER_TEMPLATES}" && packer build \
+  -only=virtualbox-iso \
+  -var disk_size=8000 \
+  -var iso_url="${SCRIPTPATH}/ubuntu-16.04.3-server-amd64.iso" \
+  -var java="${PROJECT_HOME}/java/app-example/target/app-example-${JAVA_APP_VERSION}.jar" \
+  -var python="${PROJECT_HOME}/python/wwa_app_example/dist/wwa_app_example-${PYTHON_APP_VERSION}.linux-x86_64.tar.gz" \
+  ubuntu-16.04-amd64.json)
+
+cp -rp "${PACKER_TEMPLATES}"/output-ubuntu-16.04-amd64-virtualbox-iso "${SCRIPTPATH}"
+
