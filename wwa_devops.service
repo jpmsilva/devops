@@ -1,0 +1,8 @@
+[Unit]
+Description=WWA Console tool
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/wwa_devops
+User=root
+

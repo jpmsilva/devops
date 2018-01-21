@@ -56,6 +56,7 @@ rm -rf "${SCRIPTPATH}"/output-ubuntu-16.04-amd64-virtualbox-iso
   -var disk_size=8000 \
   -var iso_url="${SCRIPTPATH}/ubuntu-16.04.3-server-amd64.iso" \
   -var java="${PROJECT_HOME}/java/app-example/target/app-example-${JAVA_APP_VERSION}.jar" \
-  -var python="${PROJECT_HOME}/python/wwa_app_example/dist/wwa_app_example-${PYTHON_APP_VERSION}-py3-none-any.whl" \
+  -var python_path="${PROJECT_HOME}/python/wwa_app_example/dist" \
+  -var python_file="wwa_app_example-${PYTHON_APP_VERSION}-py3-none-any.whl" \
   ubuntu-16.04-amd64.json)
 

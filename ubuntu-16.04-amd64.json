@@ -59,7 +59,8 @@
             "scripts":[
                 "scripts/apt.sh",
                 "scripts/virtualbox.sh",
-                "scripts/sshd.sh"
+                "scripts/sshd.sh",
+                "scripts/makedirs.sh"
             ]
         },
         {
@@ -69,18 +70,28 @@
         },
         {
             "type":"file",
-            "source":"{{user `python`}}",
-            "destination":"/opt/wwa/wwa_app_example-py3-none-any.whl"
+            "source":"{{user `python_path`}}/{{user `python_file`}}",
+            "destination":"/opt/wwa/{{user `python_file`}}"
         },
         {
             "type":"file",
             "source":"app-example.service",
-            "destination":"/etc/systemd/system"
+            "destination":"/opt/wwa/app-example.service"
+        },
+        {
+            "type":"file",
+            "source":"wwa_devops.service",
+            "destination":"/opt/wwa/wwa_devops.service"
+        },
+        {
+            "type":"file",
+            "source":"wwa_devops.timer",
+            "destination":"/opt/wwa/wwa_devops.timer"
         },
         {
             "type":"shell",
             "scripts":[
-                "scripts/provision.sh",
+                "scripts/installapp.sh",
                 "scripts/cleanup.sh",
                 "scripts/minimize.sh"
             ]
