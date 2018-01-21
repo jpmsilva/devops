@@ -1,0 +1,14 @@
+[Unit]
+Description=WWA REST Server
+
+[Service]
+Environment="PATH_TO_JAR=/opt/wwa/app-example-1.0.jar"
+PrivateTmp=true
+ExecStart=/usr/bin/java -jar ${PATH_TO_JAR}
+# JVM success return code
+SuccessExitStatus=143
+User=root
+PIDFile=/tmp/app-example.pid
+
+[Install]
+WantedBy=multi-user.target

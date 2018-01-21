@@ -45,21 +45,17 @@ trap - ERR
 #now set the trap back
 trap error_handler ERR
 (cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m setup sdist)
-(cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m setup bdist)
+(cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m setup bdist_wheel)
 (cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m virtualenv -p python3 env && source env/bin/activate && python3 -m setup install && wwa_devops && deactivate)
 PYTHON_APP_VERSION=$(cd "${PROJECT_HOME}/python/wwa_app_example" && cat version.txt)
 
-(cd "${WORKING}" && git clone https://github.com/jpmsilva/packer-templates.git)
+rm -rf "${SCRIPTPATH}"/output-ubuntu-16.04-amd64-virtualbox-iso
 
-PACKER_TEMPLATES="${WORKING}/packer-templates"
-
-(cd "${PACKER_TEMPLATES}" && packer build \
+(cd "${SCRIPTPATH}" && packer build \
   -only=virtualbox-iso \
   -var disk_size=8000 \
   -var iso_url="${SCRIPTPATH}/ubuntu-16.04.3-server-amd64.iso" \
   -var java="${PROJECT_HOME}/java/app-example/target/app-example-${JAVA_APP_VERSION}.jar" \
-  -var python="${PROJECT_HOME}/python/wwa_app_example/dist/wwa_app_example-${PYTHON_APP_VERSION}.linux-x86_64.tar.gz" \
+  -var python="${PROJECT_HOME}/python/wwa_app_example/dist/wwa_app_example-${PYTHON_APP_VERSION}-py3-none-any.whl" \
   ubuntu-16.04-amd64.json)
-
-cp -rp "${PACKER_TEMPLATES}"/output-ubuntu-16.04-amd64-virtualbox-iso "${SCRIPTPATH}"
 
