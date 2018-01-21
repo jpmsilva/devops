@@ -1,18 +1,14 @@
 #!/bin/bash
 
-f () {
-    errcode=$? # save the exit code as the first thing done in the trap function
-    echo "error $errorcode"
-    echo "the command executing at the time of the error was"
-    echo "$BASH_COMMAND"
+error_handler () {
+    errcode=$?
+    echo "Got error code $errorcode"
+    echo "Last command executed was"
+    echo -e "\t$BASH_COMMAND"
     echo "on line ${BASH_LINENO[0]}"
-    # do some error handling, cleanup, logging, notification
-    # $BASH_COMMAND contains the command that was being executed at the time of the trap
-    # ${BASH_LINENO[0]} contains the line number in the script of that command
-    # exit the script or return to try again, etc.
-    exit $errcode  # or use some other value or do return instead
+    exit $errcode
 }
-trap f ERR
+trap error_handler ERR
 
 PROJECTS_ZIP="/tmp/package.zip"
 
@@ -46,7 +42,8 @@ JAVA_APP_VERSION=$(cd "${PROJECT_HOME}/java/app-example" && mvn -q -Dexec.execut
 #tests fail, so we unset the trap
 trap - ERR
 (cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m unittest discover -v -s tests -p \*.py)
-trap f ERR
+#now set the trap back
+trap error_handler ERR
 (cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m setup sdist)
 (cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m setup bdist)
 (cd "${PROJECT_HOME}/python/wwa_app_example" && python3 -m virtualenv env && source env/bin/activate && python3 -m setup install && wwa_devops && deactivate)
