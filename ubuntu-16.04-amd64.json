@@ -48,20 +48,9 @@
                     "{{.Name}}",
                     "--cpus",
                     "{{user `cpus`}}"
-                ],
-                [
-                    "modifyvm",
-                    "{{.Name}}",
-                    "--hwvirtex",
-                    "off"
-                ],
-                [
-                    "modifyvm",
-                    "{{.Name}}",
-                    "--vtxvpid",
-                    "off"
                 ]
-            ]
+            ],
+            "headless":true
         }
     ],
     "provisioners":[
