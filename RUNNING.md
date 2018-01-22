@@ -4,7 +4,7 @@ The following steps have been tested on a __Ubuntu Desktop 17.10 x86-64__.
 
 ## Listing
 
-This is a short descripton of each top level file/folder:
+This is a short description of each top level file/folder:
 
 * [http](http) is a folder that contains a preseed configuration for an Ubuntu installation
 * [output](output) is a folder that contains a console output from a sample run of the build script
