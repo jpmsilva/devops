@@ -4,7 +4,7 @@ The following steps have been tested on a __Ubuntu Desktop 17.10 x86-64__.
 
 ## Listing
 
-This is a short descripton of each top level file/folder:
+This is a short description of each top level file/folder:
 
 * [http](http) is a folder that contains a preseed configuration for an Ubuntu installation
 * [output](output) is a folder that contains a console output from a sample run of the build script
@@ -22,6 +22,7 @@ The packer descriptor and bootstrap scripts have been adapted from [kaorimatz](h
 
 Make sure the following packages are installed:
 
+* git
 * maven
 * openjdk-8-jdk
 * pylint
@@ -34,7 +35,7 @@ Make sure the following packages are installed:
 If needed, install them with
 
 ```
-sudo apt install maven openjdk-8-jdk pylint python3-setuptools python3-virtualenv python3-wheel packer virtualbox
+sudo apt install git maven openjdk-8-jdk pylint python3-setuptools python3-virtualenv python3-wheel packer virtualbox
 ```
 
 Ensure that the environment variable `PROJECTS_ZIP` points to the project zip file.
