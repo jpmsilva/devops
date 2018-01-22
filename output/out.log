@@ -1,0 +1,1663 @@
+Working on /tmp/tmp.kmNf1tXEvI
+Archive:  /tmp/package.zip
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/
+  inflating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/pom.xml  
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/main/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/main/java/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/main/java/com/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/main/java/com/wwa/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/main/java/com/wwa/devops/
+  inflating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/main/java/com/wwa/devops/ExampleApp.java  
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/main/resources/
+  inflating: /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/main/resources/application.properties  
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/
+  inflating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/pom.xml  
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/main/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/main/java/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/main/java/com/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/main/java/com/wwa/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/main/java/com/wwa/devops/
+   creating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/main/java/com/wwa/devops/utils/
+  inflating: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/main/java/com/wwa/devops/utils/TestUtils.java  
+  inflating: /tmp/tmp.kmNf1tXEvI/project/java/.gitignore  
+   creating: /tmp/tmp.kmNf1tXEvI/project/python/
+   creating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/
+  inflating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/requirements.txt  
+  inflating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/setup.py  
+   creating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/tests/
+  inflating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/tests/__init__.py  
+  inflating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/tests/sometests.py  
+  inflating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/version.txt  
+   creating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/wwa_app_example/
+  inflating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/wwa_app_example/__init__.py  
+  inflating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/wwa_app_example/main.py  
+  inflating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/wwa_app_example/test.py  
+  inflating: /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/tests_requirements.txt  
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.wwa.devops:lib-example:jar:1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 12, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 21, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lib-example 1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.5:set (default-cli) @ lib-example ---
+[INFO] SNAPSHOT found.  BEFORE 1.1-SNAPSHOT  --> AFTER: 1.1
+[INFO] Searching for local aggregator root...
+[INFO] Local aggregation root: /tmp/tmp.kmNf1tXEvI/project/java/lib-example
+[INFO] Processing change of com.wwa.devops:lib-example:1.1-SNAPSHOT -> 1.1
+[INFO] Processing com.wwa.devops:lib-example
+[INFO]     Updating project com.wwa.devops:lib-example
+[INFO]         from version 1.1-SNAPSHOT to 1.1
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.684 s
+[INFO] Finished at: 2018-01-21T23:59:32Z
+[INFO] Final Memory: 13M/303M
+[INFO] ------------------------------------------------------------------------
+[0m[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.wwa.devops:lib-example:jar:1.1
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 12, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 21, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lib-example 1.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lib-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lib-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ lib-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /tmp/tmp.kmNf1tXEvI/project/java/lib-example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lib-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /tmp/tmp.kmNf1tXEvI/project/java/lib-example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ lib-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ lib-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lib-example ---
+[INFO] Building jar: /tmp/tmp.kmNf1tXEvI/project/java/lib-example/target/lib-example-1.1.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ lib-example ---
+[INFO] Installing /tmp/tmp.kmNf1tXEvI/project/java/lib-example/target/lib-example-1.1.jar to /home/jmsilva/.m2/repository/com/wwa/devops/lib-example/1.1/lib-example-1.1.jar
+[INFO] Installing /tmp/tmp.kmNf1tXEvI/project/java/lib-example/pom.xml to /home/jmsilva/.m2/repository/com/wwa/devops/lib-example/1.1/lib-example-1.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.082 s
+[INFO] Finished at: 2018-01-21T23:59:34Z
+[INFO] Final Memory: 18M/298M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building app-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.5:use-latest-versions (default-cli) @ app-example ---
+[INFO] Major version changes allowed
+[INFO] Updated com.wwa.devops:lib-example:jar:1.0-SNAPSHOT to version 1.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.792 s
+[INFO] Finished at: 2018-01-21T23:59:36Z
+[INFO] Final Memory: 16M/303M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building app-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.5:set (default-cli) @ app-example ---
+[INFO] SNAPSHOT found.  BEFORE 1.0-SNAPSHOT  --> AFTER: 1.0
+[INFO] Searching for local aggregator root...
+[INFO] Local aggregation root: /tmp/tmp.kmNf1tXEvI/project/java/app-example
+[INFO] Processing change of com.wwa.devops:app-example:1.0-SNAPSHOT -> 1.0
+[INFO] Processing com.wwa.devops:app-example
+[INFO]     Updating project com.wwa.devops:app-example
+[INFO]         from version 1.0-SNAPSHOT to 1.0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.784 s
+[INFO] Finished at: 2018-01-21T23:59:38Z
+[INFO] Final Memory: 16M/303M
+[INFO] ------------------------------------------------------------------------
+[0m[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building app-example 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ app-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ app-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ app-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /tmp/tmp.kmNf1tXEvI/project/java/app-example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ app-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/tmp.kmNf1tXEvI/project/java/app-example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ app-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ app-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ app-example ---
+[INFO] Building jar: /tmp/tmp.kmNf1tXEvI/project/java/app-example/target/app-example-1.0.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.5.6.RELEASE:repackage (default) @ app-example ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.977 s
+[INFO] Finished at: 2018-01-21T23:59:41Z
+[INFO] Final Memory: 33M/325M
+[INFO] ------------------------------------------------------------------------
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2018-01-21 23:59:43.866  INFO 8234 --- [           main] com.wwa.devops.ExampleApp                : Starting ExampleApp v1.0 on 1CX2RC2 with PID 8234 (/tmp/tmp.kmNf1tXEvI/project/java/app-example/target/app-example-1.0.jar started by jmsilva in /tmp/tmp.kmNf1tXEvI/project/java/app-example)
+2018-01-21 23:59:43.868  INFO 8234 --- [           main] com.wwa.devops.ExampleApp                : No active profile set, falling back to default profiles: default
+2018-01-21 23:59:43.914  INFO 8234 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ff54e6: startup date [Sun Jan 21 23:59:43 WET 2018]; root of context hierarchy
+2018-01-21 23:59:44.975  INFO 8234 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1234 (http)
+2018-01-21 23:59:44.985  INFO 8234 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-21 23:59:44.986  INFO 8234 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-01-21 23:59:45.054  INFO 8234 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-21 23:59:45.054  INFO 8234 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1142 ms
+2018-01-21 23:59:45.171  INFO 8234 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-21 23:59:45.175  INFO 8234 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-21 23:59:45.175  INFO 8234 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-21 23:59:45.175  INFO 8234 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-21 23:59:45.176  INFO 8234 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-21 23:59:45.468  INFO 8234 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ff54e6: startup date [Sun Jan 21 23:59:43 WET 2018]; root of context hierarchy
+2018-01-21 23:59:45.526  INFO 8234 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto java.lang.String com.wwa.devops.ExampleApp.home()
+2018-01-21 23:59:45.528  INFO 8234 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-21 23:59:45.529  INFO 8234 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-21 23:59:45.557  INFO 8234 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-21 23:59:45.557  INFO 8234 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-21 23:59:45.592  INFO 8234 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-21 23:59:45.705  INFO 8234 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-21 23:59:45.747  INFO 8234 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1234 (http)
+2018-01-21 23:59:45.751  INFO 8234 --- [           main] com.wwa.devops.ExampleApp                : Started ExampleApp in 2.159 seconds (JVM running for 2.491)
+2018-01-21 23:59:45.804  INFO 8234 --- [nio-1234-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-21 23:59:45.804  INFO 8234 --- [nio-1234-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-21 23:59:45.816  INFO 8234 --- [nio-1234-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+Version: 1.0
+Library: 1.1
+Spring: 1.5.6.RELEASE
+AWS SDK: 1.11.52
+2018-01-21 23:59:45.861  INFO 8234 --- [       Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ff54e6: startup date [Sun Jan 21 23:59:43 WET 2018]; root of context hierarchy
+2018-01-21 23:59:45.862  INFO 8234 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+No config file found, using default configuration
+************* Module wwa_app_example.test
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Missing function docstring (missing-docstring)
+W:  1, 0: Unused import requests (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
+No config file found, using default configuration
+************* Module wwa_app_example.main
+C:  7, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  1, 9: Redefining built-in 'input' (redefined-builtin)
+C:  1, 0: Missing function docstring (missing-docstring)
+C:  6, 0: Missing function docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 1.67/10 (previous run: 1.67/10, +0.00)
+
+No config file found, using default configuration
+test_num1 (sometests.TestClass) ... ERROR
+
+======================================================================
+ERROR: test_num1 (sometests.TestClass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/tests/sometests.py", line 11, in test_num1
+    self.assertEqual(main.test(-1), 2)
+  File "/tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/wwa_app_example/main.py", line 3, in test
+    raise ValueError("Negative Input not allowed.")
+ValueError: Negative Input not allowed.
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+running sdist
+running egg_info
+creating wwa_app_example.egg-info
+writing wwa_app_example.egg-info/PKG-INFO
+writing dependency_links to wwa_app_example.egg-info/dependency_links.txt
+writing entry points to wwa_app_example.egg-info/entry_points.txt
+writing requirements to wwa_app_example.egg-info/requires.txt
+writing top-level names to wwa_app_example.egg-info/top_level.txt
+writing manifest file 'wwa_app_example.egg-info/SOURCES.txt'
+reading manifest file 'wwa_app_example.egg-info/SOURCES.txt'
+writing manifest file 'wwa_app_example.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating wwa_app_example-1.0.1508506802
+creating wwa_app_example-1.0.1508506802/tests
+creating wwa_app_example-1.0.1508506802/wwa_app_example
+creating wwa_app_example-1.0.1508506802/wwa_app_example.egg-info
+copying files to wwa_app_example-1.0.1508506802...
+copying setup.py -> wwa_app_example-1.0.1508506802
+copying tests/__init__.py -> wwa_app_example-1.0.1508506802/tests
+copying tests/sometests.py -> wwa_app_example-1.0.1508506802/tests
+copying wwa_app_example/__init__.py -> wwa_app_example-1.0.1508506802/wwa_app_example
+copying wwa_app_example/main.py -> wwa_app_example-1.0.1508506802/wwa_app_example
+copying wwa_app_example/test.py -> wwa_app_example-1.0.1508506802/wwa_app_example
+copying wwa_app_example.egg-info/PKG-INFO -> wwa_app_example-1.0.1508506802/wwa_app_example.egg-info
+copying wwa_app_example.egg-info/SOURCES.txt -> wwa_app_example-1.0.1508506802/wwa_app_example.egg-info
+copying wwa_app_example.egg-info/dependency_links.txt -> wwa_app_example-1.0.1508506802/wwa_app_example.egg-info
+copying wwa_app_example.egg-info/entry_points.txt -> wwa_app_example-1.0.1508506802/wwa_app_example.egg-info
+copying wwa_app_example.egg-info/requires.txt -> wwa_app_example-1.0.1508506802/wwa_app_example.egg-info
+copying wwa_app_example.egg-info/top_level.txt -> wwa_app_example-1.0.1508506802/wwa_app_example.egg-info
+Writing wwa_app_example-1.0.1508506802/setup.cfg
+creating dist
+Creating tar archive
+removing 'wwa_app_example-1.0.1508506802' (and everything under it)
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/wwa_app_example
+copying wwa_app_example/test.py -> build/lib/wwa_app_example
+copying wwa_app_example/main.py -> build/lib/wwa_app_example
+copying wwa_app_example/__init__.py -> build/lib/wwa_app_example
+creating build/lib/tests
+copying tests/sometests.py -> build/lib/tests
+copying tests/__init__.py -> build/lib/tests
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/tests
+copying build/lib/tests/__init__.py -> build/bdist.linux-x86_64/wheel/tests
+copying build/lib/tests/sometests.py -> build/bdist.linux-x86_64/wheel/tests
+creating build/bdist.linux-x86_64/wheel/wwa_app_example
+copying build/lib/wwa_app_example/__init__.py -> build/bdist.linux-x86_64/wheel/wwa_app_example
+copying build/lib/wwa_app_example/main.py -> build/bdist.linux-x86_64/wheel/wwa_app_example
+copying build/lib/wwa_app_example/test.py -> build/bdist.linux-x86_64/wheel/wwa_app_example
+running install_egg_info
+running egg_info
+writing wwa_app_example.egg-info/PKG-INFO
+writing dependency_links to wwa_app_example.egg-info/dependency_links.txt
+writing entry points to wwa_app_example.egg-info/entry_points.txt
+writing requirements to wwa_app_example.egg-info/requires.txt
+writing top-level names to wwa_app_example.egg-info/top_level.txt
+reading manifest file 'wwa_app_example.egg-info/SOURCES.txt'
+writing manifest file 'wwa_app_example.egg-info/SOURCES.txt'
+Copying wwa_app_example.egg-info to build/bdist.linux-x86_64/wheel/wwa_app_example-1.0.1508506802.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/wwa_app_example-1.0.1508506802.dist-info/WHEEL
+Already using interpreter /usr/bin/python3
+Using base prefix '/usr'
+New python executable in /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/bin/python3
+Also creating executable in /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/bin/python
+Installing setuptools, pip, wheel...done.
+running install
+running bdist_egg
+running egg_info
+writing wwa_app_example.egg-info/PKG-INFO
+writing dependency_links to wwa_app_example.egg-info/dependency_links.txt
+writing entry points to wwa_app_example.egg-info/entry_points.txt
+writing requirements to wwa_app_example.egg-info/requires.txt
+writing top-level names to wwa_app_example.egg-info/top_level.txt
+reading manifest file 'wwa_app_example.egg-info/SOURCES.txt'
+writing manifest file 'wwa_app_example.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/__init__.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/sometests.py -> build/bdist.linux-x86_64/egg/tests
+creating build/bdist.linux-x86_64/egg/wwa_app_example
+copying build/lib/wwa_app_example/__init__.py -> build/bdist.linux-x86_64/egg/wwa_app_example
+copying build/lib/wwa_app_example/main.py -> build/bdist.linux-x86_64/egg/wwa_app_example
+copying build/lib/wwa_app_example/test.py -> build/bdist.linux-x86_64/egg/wwa_app_example
+byte-compiling build/bdist.linux-x86_64/egg/tests/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/sometests.py to sometests.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/wwa_app_example/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/wwa_app_example/main.py to main.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/wwa_app_example/test.py to test.cpython-36.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying wwa_app_example.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying wwa_app_example.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying wwa_app_example.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying wwa_app_example.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying wwa_app_example.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying wwa_app_example.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/wwa_app_example-1.0.1508506802-py3.6.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing wwa_app_example-1.0.1508506802-py3.6.egg
+Copying wwa_app_example-1.0.1508506802-py3.6.egg to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages
+Adding wwa-app-example 1.0.1508506802 to easy-install.pth file
+Installing wwa_devops script to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/bin
+
+Installed /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/wwa_app_example-1.0.1508506802-py3.6.egg
+Processing dependencies for wwa-app-example==1.0.1508506802
+Searching for numpy==1.13.1
+Reading https://pypi.python.org/simple/numpy/
+Downloading https://pypi.python.org/packages/59/e2/57c1a6af4ff0ac095dd68b12bf07771813dbf401faf1b97f5fc0cb963647/numpy-1.13.1-cp36-cp36m-manylinux1_x86_64.whl#md5=a3664260fc73c6c2645a00b22109a2b8
+Best match: numpy 1.13.1
+Processing numpy-1.13.1-cp36-cp36m-manylinux1_x86_64.whl
+Installing numpy-1.13.1-cp36-cp36m-manylinux1_x86_64.whl to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages
+Adding numpy 1.13.1 to easy-install.pth file
+Installing f2py script to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/bin
+
+Installed /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/numpy-1.13.1-py3.6-linux-x86_64.egg
+Searching for pandas==0.20.3
+Reading https://pypi.python.org/simple/pandas/
+Downloading https://pypi.python.org/packages/fe/6f/5733658857dffb998afa2120027171c263384ada0487a969e5ecd5bf9ac9/pandas-0.20.3-cp36-cp36m-manylinux1_x86_64.whl#md5=e1ce44fd70c090b083ddc09e75b252ed
+Best match: pandas 0.20.3
+Processing pandas-0.20.3-cp36-cp36m-manylinux1_x86_64.whl
+Installing pandas-0.20.3-cp36-cp36m-manylinux1_x86_64.whl to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages
+writing requirements to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/pandas-0.20.3-py3.6-linux-x86_64.egg/EGG-INFO/requires.txt
+Adding pandas 0.20.3 to easy-install.pth file
+
+Installed /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/pandas-0.20.3-py3.6-linux-x86_64.egg
+Searching for scipy==0.19.1
+Reading https://pypi.python.org/simple/scipy/
+Downloading https://pypi.python.org/packages/0e/46/da8d7166102d29695330f7c0b912955498542988542c0d2ae3ea0389c68d/scipy-0.19.1-cp36-cp36m-manylinux1_x86_64.whl#md5=65b1667ac56861da4cbc609960ed735b
+Best match: scipy 0.19.1
+Processing scipy-0.19.1-cp36-cp36m-manylinux1_x86_64.whl
+Installing scipy-0.19.1-cp36-cp36m-manylinux1_x86_64.whl to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages
+writing requirements to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/scipy-0.19.1-py3.6-linux-x86_64.egg/EGG-INFO/requires.txt
+Adding scipy 0.19.1 to easy-install.pth file
+
+Installed /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/scipy-0.19.1-py3.6-linux-x86_64.egg
+Searching for scikit-learn==0.19.0
+Reading https://pypi.python.org/simple/scikit-learn/
+Downloading https://pypi.python.org/packages/a4/b3/209652a5d60ce4a2a8a35ad893d7565bbb0f87ce043264ba5c9e7de304cd/scikit_learn-0.19.0-cp36-cp36m-manylinux1_x86_64.whl#md5=d1e1dcc8868368f31d3f7866d4449390
+Best match: scikit-learn 0.19.0
+Processing scikit_learn-0.19.0-cp36-cp36m-manylinux1_x86_64.whl
+Installing scikit_learn-0.19.0-cp36-cp36m-manylinux1_x86_64.whl to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages
+writing requirements to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/scikit_learn-0.19.0-py3.6-linux-x86_64.egg/EGG-INFO/requires.txt
+Adding scikit-learn 0.19.0 to easy-install.pth file
+
+Installed /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/scikit_learn-0.19.0-py3.6-linux-x86_64.egg
+Searching for pytz>=2011k
+Reading https://pypi.python.org/simple/pytz/
+Downloading https://pypi.python.org/packages/a3/7f/e7d1acbd433b929168a4fb4182a2ff3c33653717195a26c1de099ad1ef29/pytz-2017.3-py2.py3-none-any.whl#md5=6a8716540aaccabb6d5366e0f725a456
+Best match: pytz 2017.3
+Processing pytz-2017.3-py2.py3-none-any.whl
+Installing pytz-2017.3-py2.py3-none-any.whl to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages
+Adding pytz 2017.3 to easy-install.pth file
+
+Installed /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/pytz-2017.3-py3.6.egg
+Searching for python-dateutil>=2
+Reading https://pypi.python.org/simple/python-dateutil/
+Downloading https://pypi.python.org/packages/4b/0d/7ed381ab4fe80b8ebf34411d14f253e1cf3e56e2820ffa1d8844b23859a2/python_dateutil-2.6.1-py2.py3-none-any.whl#md5=342c025339de1e7c2138c74983c111d7
+Best match: python-dateutil 2.6.1
+Processing python_dateutil-2.6.1-py2.py3-none-any.whl
+Installing python_dateutil-2.6.1-py2.py3-none-any.whl to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages
+writing requirements to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/python_dateutil-2.6.1-py3.6.egg/EGG-INFO/requires.txt
+Adding python-dateutil 2.6.1 to easy-install.pth file
+
+Installed /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/python_dateutil-2.6.1-py3.6.egg
+Searching for six>=1.5
+Reading https://pypi.python.org/simple/six/
+Downloading https://pypi.python.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl#md5=866ab722be6bdfed6830f3179af65468
+Best match: six 1.11.0
+Processing six-1.11.0-py2.py3-none-any.whl
+Installing six-1.11.0-py2.py3-none-any.whl to /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages
+Adding six 1.11.0 to easy-install.pth file
+
+Installed /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/env/lib/python3.6/site-packages/six-1.11.0-py3.6.egg
+Finished processing dependencies for wwa-app-example==1.0.1508506802
+It works!
+==> virtualbox-iso: Downloading or copying Guest additions
+    virtualbox-iso: Downloading or copying: file:///usr/share/virtualbox/VBoxGuestAdditions.iso
+==> virtualbox-iso: Downloading or copying ISO
+    virtualbox-iso: Downloading or copying: http://mirrors.up.pt/pub/ubuntu-releases/16.04.3/ubuntu-16.04.3-server-amd64.iso
+==> virtualbox-iso: Starting HTTP server on port 8362
+==> virtualbox-iso: Creating virtual machine...
+==> virtualbox-iso: Creating hard drive...
+==> virtualbox-iso: Creating forwarded port mapping for communicator (SSH, WinRM, etc) (host port 2893)
+==> virtualbox-iso: Executing custom VBoxManage commands...
+    virtualbox-iso: Executing: modifyvm packer-ubuntu-16.04-amd64 --memory 512
+    virtualbox-iso: Executing: modifyvm packer-ubuntu-16.04-amd64 --cpus 1
+==> virtualbox-iso: Starting the virtual machine...
+    virtualbox-iso: The VM will be run headless, without a GUI. If you want to
+    virtualbox-iso: view the screen of the VM, connect via VRDP without a password to
+    virtualbox-iso: rdp://127.0.0.1:5946
+==> virtualbox-iso: Waiting 5s for boot...
+==> virtualbox-iso: Typing the boot command...
+==> virtualbox-iso: Waiting for SSH to become available...
+==> virtualbox-iso: Connected to SSH!
+==> virtualbox-iso: Uploading VirtualBox version info (5.2.6)
+==> virtualbox-iso: Uploading VirtualBox guest additions ISO...
+==> virtualbox-iso: Provisioning with shell script: scripts/apt.sh
+    virtualbox-iso: + sudo apt-get update
+    virtualbox-iso: Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+    virtualbox-iso: Hit:2 http://us.archive.ubuntu.com/ubuntu xenial InRelease
+    virtualbox-iso: Get:3 http://us.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+    virtualbox-iso: Get:4 http://us.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+    virtualbox-iso: Fetched 306 kB in 1s (235 kB/s)
+    virtualbox-iso: Reading package lists...
+==> virtualbox-iso: Provisioning with shell script: scripts/virtualbox.sh
+    virtualbox-iso: + '[' virtualbox-iso '!=' virtualbox-iso ']'
+    virtualbox-iso: + sudo apt-get -y install dkms
+    virtualbox-iso: Reading package lists...
+    virtualbox-iso: Building dependency tree...
+    virtualbox-iso: Reading state information...
+    virtualbox-iso: The following additional packages will be installed:
+    virtualbox-iso: binutils cpp cpp-5 fakeroot gcc gcc-5 gcc-5-base libasan2 libatomic1
+    virtualbox-iso: libc-dev-bin libc6 libc6-dev libcc1-0 libcilkrts5 libfakeroot libgcc-5-dev
+    virtualbox-iso: libgomp1 libisl15 libitm1 liblsan0 libmpc3 libmpfr4 libmpx0 libquadmath0
+    virtualbox-iso: libstdc++6 libtsan0 libubsan0 linux-libc-dev make manpages manpages-dev
+    virtualbox-iso: patch
+    virtualbox-iso: Suggested packages:
+    virtualbox-iso: binutils-doc cpp-doc gcc-5-locales gcc-multilib autoconf automake libtool
+    virtualbox-iso: flex bison gdb gcc-doc gcc-5-multilib gcc-5-doc libgcc1-dbg libgomp1-dbg
+    virtualbox-iso: libitm1-dbg libatomic1-dbg libasan2-dbg liblsan0-dbg libtsan0-dbg
+    virtualbox-iso: libubsan0-dbg libcilkrts5-dbg libmpx0-dbg libquadmath0-dbg glibc-doc
+    virtualbox-iso: make-doc man-browser ed diffutils-doc
+    virtualbox-iso: The following NEW packages will be installed:
+    virtualbox-iso: binutils cpp cpp-5 dkms fakeroot gcc gcc-5 libasan2 libatomic1 libc-dev-bin
+    virtualbox-iso: libc6-dev libcc1-0 libcilkrts5 libfakeroot libgcc-5-dev libgomp1 libisl15
+    virtualbox-iso: libitm1 liblsan0 libmpc3 libmpfr4 libmpx0 libquadmath0 libtsan0 libubsan0
+    virtualbox-iso: linux-libc-dev make manpages manpages-dev patch
+    virtualbox-iso: The following packages will be upgraded:
+    virtualbox-iso: gcc-5-base libc6 libstdc++6
+    virtualbox-iso: 3 upgraded, 30 newly installed, 0 to remove and 41 not upgraded.
+    virtualbox-iso: Need to get 32.3 MB of archives.
+    virtualbox-iso: After this operation, 103 MB of additional disk space will be used.
+    virtualbox-iso: Get:1 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6 amd64 2.23-0ubuntu10 [2,580 kB]
+    virtualbox-iso: Get:2 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libmpfr4 amd64 3.1.4-1 [191 kB]
+    virtualbox-iso: Get:3 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libmpc3 amd64 1.0.3-1 [39.7 kB]
+    virtualbox-iso: Get:4 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 gcc-5-base amd64 5.4.0-6ubuntu1~16.04.5 [17.1 kB]
+    virtualbox-iso: Get:5 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libstdc++6 amd64 5.4.0-6ubuntu1~16.04.5 [393 kB]
+    virtualbox-iso: Get:6 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 manpages all 4.04-2 [1,087 kB]
+    virtualbox-iso: Get:7 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 binutils amd64 2.26.1-1ubuntu1~16.04.6 [2,311 kB]
+    virtualbox-iso: Get:8 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libisl15 amd64 0.16.1-1 [524 kB]
+    virtualbox-iso: Get:9 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 cpp-5 amd64 5.4.0-6ubuntu1~16.04.5 [7,786 kB]
+    virtualbox-iso: Get:10 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 cpp amd64 4:5.3.1-1ubuntu1 [27.7 kB]
+    virtualbox-iso: Get:11 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcc1-0 amd64 5.4.0-6ubuntu1~16.04.5 [38.8 kB]
+    virtualbox-iso: Get:12 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgomp1 amd64 5.4.0-6ubuntu1~16.04.5 [55.1 kB]
+    virtualbox-iso: Get:13 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libitm1 amd64 5.4.0-6ubuntu1~16.04.5 [27.4 kB]
+    virtualbox-iso: Get:14 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libatomic1 amd64 5.4.0-6ubuntu1~16.04.5 [8,920 B]
+    virtualbox-iso: Get:15 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libasan2 amd64 5.4.0-6ubuntu1~16.04.5 [264 kB]
+    virtualbox-iso: Get:16 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 liblsan0 amd64 5.4.0-6ubuntu1~16.04.5 [105 kB]
+    virtualbox-iso: Get:17 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libtsan0 amd64 5.4.0-6ubuntu1~16.04.5 [244 kB]
+    virtualbox-iso: Get:18 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libubsan0 amd64 5.4.0-6ubuntu1~16.04.5 [95.3 kB]
+    virtualbox-iso: Get:19 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcilkrts5 amd64 5.4.0-6ubuntu1~16.04.5 [40.1 kB]
+    virtualbox-iso: Get:20 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libmpx0 amd64 5.4.0-6ubuntu1~16.04.5 [9,786 B]
+    virtualbox-iso: Get:21 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libquadmath0 amd64 5.4.0-6ubuntu1~16.04.5 [131 kB]
+    virtualbox-iso: Get:22 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgcc-5-dev amd64 5.4.0-6ubuntu1~16.04.5 [2,226 kB]
+    virtualbox-iso: Get:23 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 gcc-5 amd64 5.4.0-6ubuntu1~16.04.5 [8,638 kB]
+    virtualbox-iso: Get:24 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 gcc amd64 4:5.3.1-1ubuntu1 [5,244 B]
+    virtualbox-iso: Get:25 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 make amd64 4.1-6 [151 kB]
+    virtualbox-iso: Get:26 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 patch amd64 2.7.5-1 [90.4 kB]
+    virtualbox-iso: Get:27 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 dkms all 2.2.0.3-2ubuntu11.5 [66.3 kB]
+    virtualbox-iso: Get:28 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libfakeroot amd64 1.20.2-1ubuntu1 [25.5 kB]
+    virtualbox-iso: Get:29 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 fakeroot amd64 1.20.2-1ubuntu1 [61.8 kB]
+    virtualbox-iso: Get:30 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc-dev-bin amd64 2.23-0ubuntu10 [68.7 kB]
+    virtualbox-iso: Get:31 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 linux-libc-dev amd64 4.4.0-109.132 [829 kB]
+    virtualbox-iso: Get:32 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6-dev amd64 2.23-0ubuntu10 [2,079 kB]
+    virtualbox-iso: Get:33 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 manpages-dev all 4.04-2 [2,048 kB]
+    virtualbox-iso: debconf: unable to initialize frontend: Dialog
+    virtualbox-iso: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+    virtualbox-iso: debconf: falling back to frontend: Readline
+    virtualbox-iso: debconf: unable to initialize frontend: Readline
+    virtualbox-iso: debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 33.)
+    virtualbox-iso: debconf: falling back to frontend: Teletype
+    virtualbox-iso: dpkg-preconfigure: unable to re-open stdin:
+    virtualbox-iso: Fetched 32.3 MB in 20s (1,598 kB/s)
+    virtualbox-iso: (Reading database ... 49888 files and directories currently installed.)
+    virtualbox-iso: Preparing to unpack .../libc6_2.23-0ubuntu10_amd64.deb ...
+    virtualbox-iso: debconf: unable to initialize frontend: Dialog
+    virtualbox-iso: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+    virtualbox-iso: debconf: falling back to frontend: Readline
+    virtualbox-iso: debconf: unable to initialize frontend: Readline
+    virtualbox-iso: debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+    virtualbox-iso: debconf: falling back to frontend: Teletype
+    virtualbox-iso: Unpacking libc6:amd64 (2.23-0ubuntu10) over (2.23-0ubuntu9) ...
+    virtualbox-iso: Setting up libc6:amd64 (2.23-0ubuntu10) ...
+    virtualbox-iso: debconf: unable to initialize frontend: Dialog
+    virtualbox-iso: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+    virtualbox-iso: debconf: falling back to frontend: Readline
+    virtualbox-iso: debconf: unable to initialize frontend: Readline
+    virtualbox-iso: debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+    virtualbox-iso: debconf: falling back to frontend: Teletype
+    virtualbox-iso: Processing triggers for libc-bin (2.23-0ubuntu9) ...
+    virtualbox-iso: Selecting previously unselected package libmpfr4:amd64.
+    virtualbox-iso: (Reading database ... 49888 files and directories currently installed.)
+    virtualbox-iso: Preparing to unpack .../libmpfr4_3.1.4-1_amd64.deb ...
+    virtualbox-iso: Unpacking libmpfr4:amd64 (3.1.4-1) ...
+    virtualbox-iso: Selecting previously unselected package libmpc3:amd64.
+    virtualbox-iso: Preparing to unpack .../libmpc3_1.0.3-1_amd64.deb ...
+    virtualbox-iso: Unpacking libmpc3:amd64 (1.0.3-1) ...
+    virtualbox-iso: Preparing to unpack .../gcc-5-base_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking gcc-5-base:amd64 (5.4.0-6ubuntu1~16.04.5) over (5.4.0-6ubuntu1~16.04.4) ...
+    virtualbox-iso: Processing triggers for libc-bin (2.23-0ubuntu9) ...
+    virtualbox-iso: Setting up gcc-5-base:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: (Reading database ... 49904 files and directories currently installed.)
+    virtualbox-iso: Preparing to unpack .../libstdc++6_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libstdc++6:amd64 (5.4.0-6ubuntu1~16.04.5) over (5.4.0-6ubuntu1~16.04.4) ...
+    virtualbox-iso: Processing triggers for libc-bin (2.23-0ubuntu9) ...
+    virtualbox-iso: Setting up libstdc++6:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Processing triggers for libc-bin (2.23-0ubuntu9) ...
+    virtualbox-iso: Selecting previously unselected package manpages.
+    virtualbox-iso: (Reading database ... 49904 files and directories currently installed.)
+    virtualbox-iso: Preparing to unpack .../manpages_4.04-2_all.deb ...
+    virtualbox-iso: Unpacking manpages (4.04-2) ...
+    virtualbox-iso: Selecting previously unselected package binutils.
+    virtualbox-iso: Preparing to unpack .../binutils_2.26.1-1ubuntu1~16.04.6_amd64.deb ...
+    virtualbox-iso: Unpacking binutils (2.26.1-1ubuntu1~16.04.6) ...
+    virtualbox-iso: Selecting previously unselected package libisl15:amd64.
+    virtualbox-iso: Preparing to unpack .../libisl15_0.16.1-1_amd64.deb ...
+    virtualbox-iso: Unpacking libisl15:amd64 (0.16.1-1) ...
+    virtualbox-iso: Selecting previously unselected package cpp-5.
+    virtualbox-iso: Preparing to unpack .../cpp-5_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking cpp-5 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package cpp.
+    virtualbox-iso: Preparing to unpack .../cpp_4%3a5.3.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking cpp (4:5.3.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libcc1-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libcc1-0_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libcc1-0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libgomp1:amd64.
+    virtualbox-iso: Preparing to unpack .../libgomp1_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libgomp1:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libitm1:amd64.
+    virtualbox-iso: Preparing to unpack .../libitm1_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libitm1:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libatomic1:amd64.
+    virtualbox-iso: Preparing to unpack .../libatomic1_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libatomic1:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libasan2:amd64.
+    virtualbox-iso: Preparing to unpack .../libasan2_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libasan2:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package liblsan0:amd64.
+    virtualbox-iso: Preparing to unpack .../liblsan0_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking liblsan0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libtsan0:amd64.
+    virtualbox-iso: Preparing to unpack .../libtsan0_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libtsan0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libubsan0:amd64.
+    virtualbox-iso: Preparing to unpack .../libubsan0_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libubsan0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libcilkrts5:amd64.
+    virtualbox-iso: Preparing to unpack .../libcilkrts5_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libcilkrts5:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libmpx0:amd64.
+    virtualbox-iso: Preparing to unpack .../libmpx0_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libmpx0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libquadmath0:amd64.
+    virtualbox-iso: Preparing to unpack .../libquadmath0_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libquadmath0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package libgcc-5-dev:amd64.
+    virtualbox-iso: Preparing to unpack .../libgcc-5-dev_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libgcc-5-dev:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package gcc-5.
+    virtualbox-iso: Preparing to unpack .../gcc-5_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking gcc-5 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package gcc.
+    virtualbox-iso: Preparing to unpack .../gcc_4%3a5.3.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking gcc (4:5.3.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package make.
+    virtualbox-iso: Preparing to unpack .../archives/make_4.1-6_amd64.deb ...
+    virtualbox-iso: Unpacking make (4.1-6) ...
+    virtualbox-iso: Selecting previously unselected package patch.
+    virtualbox-iso: Preparing to unpack .../patch_2.7.5-1_amd64.deb ...
+    virtualbox-iso: Unpacking patch (2.7.5-1) ...
+    virtualbox-iso: Selecting previously unselected package dkms.
+    virtualbox-iso: Preparing to unpack .../dkms_2.2.0.3-2ubuntu11.5_all.deb ...
+    virtualbox-iso: Unpacking dkms (2.2.0.3-2ubuntu11.5) ...
+    virtualbox-iso: Selecting previously unselected package libfakeroot:amd64.
+    virtualbox-iso: Preparing to unpack .../libfakeroot_1.20.2-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libfakeroot:amd64 (1.20.2-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package fakeroot.
+    virtualbox-iso: Preparing to unpack .../fakeroot_1.20.2-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking fakeroot (1.20.2-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libc-dev-bin.
+    virtualbox-iso: Preparing to unpack .../libc-dev-bin_2.23-0ubuntu10_amd64.deb ...
+    virtualbox-iso: Unpacking libc-dev-bin (2.23-0ubuntu10) ...
+    virtualbox-iso: Selecting previously unselected package linux-libc-dev:amd64.
+    virtualbox-iso: Preparing to unpack .../linux-libc-dev_4.4.0-109.132_amd64.deb ...
+    virtualbox-iso: Unpacking linux-libc-dev:amd64 (4.4.0-109.132) ...
+    virtualbox-iso: Selecting previously unselected package libc6-dev:amd64.
+    virtualbox-iso: Preparing to unpack .../libc6-dev_2.23-0ubuntu10_amd64.deb ...
+    virtualbox-iso: Unpacking libc6-dev:amd64 (2.23-0ubuntu10) ...
+    virtualbox-iso: Selecting previously unselected package manpages-dev.
+    virtualbox-iso: Preparing to unpack .../manpages-dev_4.04-2_all.deb ...
+    virtualbox-iso: Unpacking manpages-dev (4.04-2) ...
+    virtualbox-iso: Processing triggers for libc-bin (2.23-0ubuntu9) ...
+    virtualbox-iso: Setting up libmpfr4:amd64 (3.1.4-1) ...
+    virtualbox-iso: Setting up libmpc3:amd64 (1.0.3-1) ...
+    virtualbox-iso: Setting up manpages (4.04-2) ...
+    virtualbox-iso: Setting up binutils (2.26.1-1ubuntu1~16.04.6) ...
+    virtualbox-iso: Setting up libisl15:amd64 (0.16.1-1) ...
+    virtualbox-iso: Setting up cpp-5 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up cpp (4:5.3.1-1ubuntu1) ...
+    virtualbox-iso: Setting up libcc1-0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libgomp1:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libitm1:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libatomic1:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libasan2:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up liblsan0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libtsan0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libubsan0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libcilkrts5:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libmpx0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libquadmath0:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up libgcc-5-dev:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up gcc-5 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up gcc (4:5.3.1-1ubuntu1) ...
+    virtualbox-iso: Setting up make (4.1-6) ...
+    virtualbox-iso: Setting up patch (2.7.5-1) ...
+    virtualbox-iso: Setting up dkms (2.2.0.3-2ubuntu11.5) ...
+    virtualbox-iso: debconf: unable to initialize frontend: Dialog
+    virtualbox-iso: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+    virtualbox-iso: debconf: falling back to frontend: Readline
+    virtualbox-iso: debconf: unable to initialize frontend: Readline
+    virtualbox-iso: debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+    virtualbox-iso: debconf: falling back to frontend: Teletype
+    virtualbox-iso: Setting up libfakeroot:amd64 (1.20.2-1ubuntu1) ...
+    virtualbox-iso: Setting up fakeroot (1.20.2-1ubuntu1) ...
+    virtualbox-iso: update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+    virtualbox-iso: Setting up libc-dev-bin (2.23-0ubuntu10) ...
+    virtualbox-iso: Setting up linux-libc-dev:amd64 (4.4.0-109.132) ...
+    virtualbox-iso: Setting up libc6-dev:amd64 (2.23-0ubuntu10) ...
+    virtualbox-iso: Setting up manpages-dev (4.04-2) ...
+    virtualbox-iso: Processing triggers for libc-bin (2.23-0ubuntu9) ...
+    virtualbox-iso: + sudo apt-get -y install make
+    virtualbox-iso: Reading package lists...
+    virtualbox-iso: Building dependency tree...
+    virtualbox-iso: Reading state information...
+    virtualbox-iso: make is already the newest version (4.1-6).
+    virtualbox-iso: make set to manually installed.
+    virtualbox-iso: 0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+    virtualbox-iso: + sudo mount -o loop,ro /home/vagrant/VBoxGuestAdditions.iso /mnt/
+    virtualbox-iso: + sudo /mnt/VBoxLinuxAdditions.run
+    virtualbox-iso: Verifying archive integrity... All good.
+    virtualbox-iso: Uncompressing VirtualBox 5.2.6 Guest Additions for Linux........
+    virtualbox-iso: VirtualBox Guest Additions installer
+    virtualbox-iso: Copying additional installer modules ...
+    virtualbox-iso: Installing additional modules ...
+    virtualbox-iso: VirtualBox Guest Additions: Building the VirtualBox Guest Additions kernel modules.
+    virtualbox-iso: VirtualBox Guest Additions: Running kernel modules will not be replaced until the system is restarted
+    virtualbox-iso: VirtualBox Guest Additions: Starting.
+    virtualbox-iso: VirtualBox Guest Additions: modprobe vboxsf failed
+    virtualbox-iso: + :
+    virtualbox-iso: + sudo umount /mnt/
+    virtualbox-iso: + rm -f /home/vagrant/VBoxGuestAdditions.iso
+    virtualbox-iso: ++ cat /home/vagrant/.vbox_version
+    virtualbox-iso: + VBOX_VERSION=5.2.6
+    virtualbox-iso: + '[' 5.2.6 == 4.3.10 ']'
+==> virtualbox-iso: Provisioning with shell script: scripts/sshd.sh
+    virtualbox-iso: + sudo tee -a /etc/ssh/sshd_config
+    virtualbox-iso:
+    virtualbox-iso: UseDNS no
+==> virtualbox-iso: Provisioning with shell script: scripts/makedirs.sh
+    virtualbox-iso: + sudo mkdir -p /opt/wwa
+    virtualbox-iso: + sudo chown vagrant:vagrant /opt/wwa
+==> virtualbox-iso: Uploading /tmp/tmp.kmNf1tXEvI/project/java/app-example/target/app-example-1.0.jar => /opt/wwa/app-example-1.0.jar
+==> virtualbox-iso: Uploading /tmp/tmp.kmNf1tXEvI/project/python/wwa_app_example/dist/wwa_app_example-1.0.1508506802-py3-none-any.whl => /opt/wwa/wwa_app_example-1.0.1508506802-py3-none-any.whl
+==> virtualbox-iso: Uploading app-example.service => /opt/wwa/app-example.service
+==> virtualbox-iso: Uploading wwa_devops.service => /opt/wwa/wwa_devops.service
+==> virtualbox-iso: Uploading wwa_devops.timer => /opt/wwa/wwa_devops.timer
+==> virtualbox-iso: Provisioning with shell script: scripts/installapp.sh
+    virtualbox-iso: + sudo apt-get -y install openjdk-8-jre python3-pip
+    virtualbox-iso: Reading package lists...
+    virtualbox-iso: Building dependency tree...
+    virtualbox-iso: Reading state information...
+    virtualbox-iso: The following additional packages will be installed:
+    virtualbox-iso: build-essential ca-certificates-java dpkg-dev fontconfig fontconfig-config
+    virtualbox-iso: fonts-dejavu-core fonts-dejavu-extra g++ g++-5 hicolor-icon-theme
+    virtualbox-iso: java-common libalgorithm-diff-perl libalgorithm-diff-xs-perl
+    virtualbox-iso: libalgorithm-merge-perl libasound2 libasound2-data libasyncns0 libatk1.0-0
+    virtualbox-iso: libatk1.0-data libavahi-client3 libavahi-common-data libavahi-common3
+    virtualbox-iso: libcairo2 libcups2 libdatrie1 libdpkg-perl libdrm-amdgpu1 libdrm-common
+    virtualbox-iso: libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libelf1 libexpat1-dev
+    virtualbox-iso: libfile-fcntllock-perl libflac8 libfontconfig1 libgdbm3 libgdk-pixbuf2.0-0
+    virtualbox-iso: libgdk-pixbuf2.0-common libgif7 libgl1-mesa-dri libgl1-mesa-glx
+    virtualbox-iso: libglapi-mesa libgraphite2-3 libgtk2.0-0 libgtk2.0-bin libgtk2.0-common
+    virtualbox-iso: libharfbuzz0b libjbig0 libjpeg-turbo8 libjpeg8 liblcms2-2 libllvm5.0
+    virtualbox-iso: libnspr4 libnss3 libnss3-nssdb libogg0 libpango-1.0-0 libpangocairo-1.0-0
+    virtualbox-iso: libpangoft2-1.0-0 libpciaccess0 libpcsclite1 libperl5.22 libpixman-1-0
+    virtualbox-iso: libpulse0 libpython3-dev libpython3.5 libpython3.5-dev libpython3.5-minimal
+    virtualbox-iso: libpython3.5-stdlib libsensors4 libsndfile1 libstdc++-5-dev libthai-data
+    virtualbox-iso: libthai0 libtiff5 libtxc-dxtn-s2tc0 libvorbis0a libvorbisenc2 libx11-xcb1
+    virtualbox-iso: libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-render0
+    virtualbox-iso: libxcb-shm0 libxcb-sync1 libxcomposite1 libxcursor1 libxdamage1 libxfixes3
+    virtualbox-iso: libxi6 libxinerama1 libxrandr2 libxrender1 libxshmfence1 libxtst6
+    virtualbox-iso: libxxf86vm1 openjdk-8-jre-headless perl perl-base perl-modules-5.22
+    virtualbox-iso: python-pip-whl python3-dev python3-setuptools python3-wheel python3.5
+    virtualbox-iso: python3.5-dev python3.5-minimal rename x11-common xz-utils
+    virtualbox-iso: Suggested packages:
+    virtualbox-iso: debian-keyring g++-multilib g++-5-multilib gcc-5-doc libstdc++6-5-dbg
+    virtualbox-iso: default-jre libasound2-plugins alsa-utils cups-common librsvg2-common gvfs
+    virtualbox-iso: liblcms2-utils pcscd pulseaudio lm-sensors libstdc++-5-doc icedtea-8-plugin
+    virtualbox-iso: libnss-mdns fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei
+    virtualbox-iso: fonts-wqy-zenhei fonts-indic perl-doc libterm-readline-gnu-perl
+    virtualbox-iso: | libterm-readline-perl-perl python-setuptools-doc python3.5-venv
+    virtualbox-iso: python3.5-doc binfmt-support
+    virtualbox-iso: The following NEW packages will be installed:
+    virtualbox-iso: build-essential ca-certificates-java dpkg-dev fontconfig fontconfig-config
+    virtualbox-iso: fonts-dejavu-core fonts-dejavu-extra g++ g++-5 hicolor-icon-theme
+    virtualbox-iso: java-common libalgorithm-diff-perl libalgorithm-diff-xs-perl
+    virtualbox-iso: libalgorithm-merge-perl libasound2 libasound2-data libasyncns0 libatk1.0-0
+    virtualbox-iso: libatk1.0-data libavahi-client3 libavahi-common-data libavahi-common3
+    virtualbox-iso: libcairo2 libcups2 libdatrie1 libdpkg-perl libdrm-amdgpu1 libdrm-common
+    virtualbox-iso: libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libelf1 libexpat1-dev
+    virtualbox-iso: libfile-fcntllock-perl libflac8 libfontconfig1 libgdbm3 libgdk-pixbuf2.0-0
+    virtualbox-iso: libgdk-pixbuf2.0-common libgif7 libgl1-mesa-dri libgl1-mesa-glx
+    virtualbox-iso: libglapi-mesa libgraphite2-3 libgtk2.0-0 libgtk2.0-bin libgtk2.0-common
+    virtualbox-iso: libharfbuzz0b libjbig0 libjpeg-turbo8 libjpeg8 liblcms2-2 libllvm5.0
+    virtualbox-iso: libnspr4 libnss3 libnss3-nssdb libogg0 libpango-1.0-0 libpangocairo-1.0-0
+    virtualbox-iso: libpangoft2-1.0-0 libpciaccess0 libpcsclite1 libperl5.22 libpixman-1-0
+    virtualbox-iso: libpulse0 libpython3-dev libpython3.5 libpython3.5-dev libsensors4
+    virtualbox-iso: libsndfile1 libstdc++-5-dev libthai-data libthai0 libtiff5 libtxc-dxtn-s2tc0
+    virtualbox-iso: libvorbis0a libvorbisenc2 libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0
+    virtualbox-iso: libxcb-glx0 libxcb-present0 libxcb-render0 libxcb-shm0 libxcb-sync1
+    virtualbox-iso: libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1
+    virtualbox-iso: libxrandr2 libxrender1 libxshmfence1 libxtst6 libxxf86vm1 openjdk-8-jre
+    virtualbox-iso: openjdk-8-jre-headless perl perl-modules-5.22 python-pip-whl python3-dev
+    virtualbox-iso: python3-pip python3-setuptools python3-wheel python3.5-dev rename x11-common
+    virtualbox-iso: xz-utils
+    virtualbox-iso: The following packages will be upgraded:
+    virtualbox-iso: libpython3.5-minimal libpython3.5-stdlib perl-base python3.5
+    virtualbox-iso: python3.5-minimal
+    virtualbox-iso: 5 upgraded, 110 newly installed, 0 to remove and 36 not upgraded.
+    virtualbox-iso: Need to get 120 MB of archives.
+    virtualbox-iso: After this operation, 473 MB of additional disk space will be used.
+    virtualbox-iso: Get:1 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 perl-base amd64 5.22.1-9ubuntu0.2 [1,282 kB]
+    virtualbox-iso: Get:2 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python3.5 amd64 3.5.2-2ubuntu0~16.04.4 [165 kB]
+    virtualbox-iso: Get:3 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython3.5-stdlib amd64 3.5.2-2ubuntu0~16.04.4 [2,132 kB]
+    virtualbox-iso: Get:4 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python3.5-minimal amd64 3.5.2-2ubuntu0~16.04.4 [1,597 kB]
+    virtualbox-iso: Get:5 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython3.5-minimal amd64 3.5.2-2ubuntu0~16.04.4 [523 kB]
+    virtualbox-iso: Get:6 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libgdbm3 amd64 1.8.3-13.1 [16.9 kB]
+    virtualbox-iso: Get:7 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 fonts-dejavu-core all 2.35-1 [1,039 kB]
+    virtualbox-iso: Get:8 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 fontconfig-config all 2.11.94-0ubuntu1.1 [49.9 kB]
+    virtualbox-iso: Get:9 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libfontconfig1 amd64 2.11.94-0ubuntu1.1 [131 kB]
+    virtualbox-iso: Get:10 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 fontconfig amd64 2.11.94-0ubuntu1.1 [178 kB]
+    virtualbox-iso: Get:11 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libasyncns0 amd64 0.8-5build1 [12.3 kB]
+    virtualbox-iso: Get:12 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libjpeg-turbo8 amd64 1.4.2-0ubuntu3 [111 kB]
+    virtualbox-iso: Get:13 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 liblcms2-2 amd64 2.6-3ubuntu2 [137 kB]
+    virtualbox-iso: Get:14 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libogg0 amd64 1.3.2-1 [17.2 kB]
+    virtualbox-iso: Get:15 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcomposite1 amd64 1:0.4.4-1 [7,714 B]
+    virtualbox-iso: Get:16 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxdamage1 amd64 1:1.1.4-2 [6,946 B]
+    virtualbox-iso: Get:17 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxfixes3 amd64 1:5.0.1-2 [11.1 kB]
+    virtualbox-iso: Get:18 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxinerama1 amd64 2:1.1.3-1 [7,908 B]
+    virtualbox-iso: Get:19 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxshmfence1 amd64 1.2-1 [5,042 B]
+    virtualbox-iso: Get:20 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 x11-common all 1:7.7+13ubuntu3 [22.4 kB]
+    virtualbox-iso: Get:21 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxtst6 amd64 2:1.2.2-1 [14.1 kB]
+    virtualbox-iso: Get:22 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxxf86vm1 amd64 1:1.1.4-1 [10.6 kB]
+    virtualbox-iso: Get:23 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 perl-modules-5.22 all 5.22.1-9ubuntu0.2 [2,661 kB]
+    virtualbox-iso: Get:24 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libperl5.22 amd64 5.22.1-9ubuntu0.2 [3,391 kB]
+    virtualbox-iso: Get:25 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 perl amd64 5.22.1-9ubuntu0.2 [237 kB]
+    virtualbox-iso: Get:26 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libjbig0 amd64 2.1-3.1 [26.6 kB]
+    virtualbox-iso: Get:27 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libtxc-dxtn-s2tc0 amd64 0~git20131104-1.1 [51.8 kB]
+    virtualbox-iso: Get:28 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-common all 2.4.83-1~16.04.1 [4,870 B]
+    virtualbox-iso: Get:29 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm2 amd64 2.4.83-1~16.04.1 [30.4 kB]
+    virtualbox-iso: Get:30 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libelf1 amd64 0.165-3ubuntu1 [42.5 kB]
+    virtualbox-iso: Get:31 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libstdc++-5-dev amd64 5.4.0-6ubuntu1~16.04.5 [1,430 kB]
+    virtualbox-iso: Get:32 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 g++-5 amd64 5.4.0-6ubuntu1~16.04.5 [8,435 kB]
+    virtualbox-iso: Get:33 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 g++ amd64 4:5.3.1-1ubuntu1 [1,504 B]
+    virtualbox-iso: Get:34 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdpkg-perl all 1.18.4ubuntu1.3 [195 kB]
+    virtualbox-iso: Get:35 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 xz-utils amd64 5.1.1alpha+20120614-2ubuntu2 [78.8 kB]
+    virtualbox-iso: Get:36 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 dpkg-dev all 1.18.4ubuntu1.3 [584 kB]
+    virtualbox-iso: Get:37 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 build-essential amd64 12.1ubuntu2 [4,758 B]
+    virtualbox-iso: Get:38 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 java-common all 0.56ubuntu2 [7,742 B]
+    virtualbox-iso: Get:39 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libavahi-common-data amd64 0.6.32~rc+dfsg-1ubuntu2 [21.7 kB]
+    virtualbox-iso: Get:40 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libavahi-common3 amd64 0.6.32~rc+dfsg-1ubuntu2 [21.6 kB]
+    virtualbox-iso: Get:41 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libavahi-client3 amd64 0.6.32~rc+dfsg-1ubuntu2 [25.1 kB]
+    virtualbox-iso: Get:42 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcups2 amd64 2.1.3-4ubuntu0.3 [197 kB]
+    virtualbox-iso: Get:43 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2,194 B]
+    virtualbox-iso: Get:44 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libnspr4 amd64 2:4.13.1-0ubuntu0.16.04.1 [112 kB]
+    virtualbox-iso: Get:45 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libnss3-nssdb all 2:3.28.4-0ubuntu0.16.04.3 [10.6 kB]
+    virtualbox-iso: Get:46 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libnss3 amd64 2:3.28.4-0ubuntu0.16.04.3 [1,148 kB]
+    virtualbox-iso: Get:47 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpcsclite1 amd64 1.8.14-1ubuntu1.16.04.1 [21.4 kB]
+    virtualbox-iso: Get:48 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxi6 amd64 2:1.7.6-1 [28.6 kB]
+    virtualbox-iso: Get:49 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxrender1 amd64 1:0.9.9-0ubuntu1 [18.5 kB]
+    virtualbox-iso: Get:50 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openjdk-8-jre-headless amd64 8u151-b12-0ubuntu0.16.04.2 [27.0 MB]
+    virtualbox-iso: Get:51 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 ca-certificates-java all 20160321ubuntu1 [12.5 kB]
+    virtualbox-iso: Get:52 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 fonts-dejavu-extra all 2.35-1 [1,749 kB]
+    virtualbox-iso: Get:53 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 hicolor-icon-theme all 0.15-0ubuntu1 [7,750 B]
+    virtualbox-iso: Get:54 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libalgorithm-diff-perl all 1.19.03-1 [47.6 kB]
+    virtualbox-iso: Get:55 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libalgorithm-diff-xs-perl amd64 0.04-4build1 [11.0 kB]
+    virtualbox-iso: Get:56 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]
+    virtualbox-iso: Get:57 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libasound2-data all 1.1.0-0ubuntu1 [29.4 kB]
+    virtualbox-iso: Get:58 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libasound2 amd64 1.1.0-0ubuntu1 [350 kB]
+    virtualbox-iso: Get:59 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libatk1.0-data all 2.18.0-1 [17.1 kB]
+    virtualbox-iso: Get:60 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libatk1.0-0 amd64 2.18.0-1 [56.9 kB]
+    virtualbox-iso: Get:61 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libpixman-1-0 amd64 0.33.6-1 [231 kB]
+    virtualbox-iso: Get:62 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-render0 amd64 1.11.1-1ubuntu1 [11.4 kB]
+    virtualbox-iso: Get:63 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-shm0 amd64 1.11.1-1ubuntu1 [5,588 B]
+    virtualbox-iso: Get:64 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libcairo2 amd64 1.14.6-1 [555 kB]
+    virtualbox-iso: Get:65 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libdatrie1 amd64 0.2.10-2 [17.3 kB]
+    virtualbox-iso: Get:66 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-amdgpu1 amd64 2.4.83-1~16.04.1 [18.6 kB]
+    virtualbox-iso: Get:67 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libpciaccess0 amd64 0.13.4-1 [18.1 kB]
+    virtualbox-iso: Get:68 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-intel1 amd64 2.4.83-1~16.04.1 [59.9 kB]
+    virtualbox-iso: Get:69 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-nouveau2 amd64 2.4.83-1~16.04.1 [16.3 kB]
+    virtualbox-iso: Get:70 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdrm-radeon1 amd64 2.4.83-1~16.04.1 [21.5 kB]
+    virtualbox-iso: Get:71 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libexpat1-dev amd64 2.1.0-7ubuntu0.16.04.3 [115 kB]
+    virtualbox-iso: Get:72 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libfile-fcntllock-perl amd64 0.22-3 [32.0 kB]
+    virtualbox-iso: Get:73 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libflac8 amd64 1.3.1-4 [210 kB]
+    virtualbox-iso: Get:74 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libtiff5 amd64 4.0.6-1ubuntu0.2 [146 kB]
+    virtualbox-iso: Get:75 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgdk-pixbuf2.0-common all 2.32.2-1ubuntu1.4 [10.5 kB]
+    virtualbox-iso: Get:76 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgdk-pixbuf2.0-0 amd64 2.32.2-1ubuntu1.4 [158 kB]
+    virtualbox-iso: Get:77 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgif7 amd64 5.1.4-0.3~16.04 [30.5 kB]
+    virtualbox-iso: Get:78 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libglapi-mesa amd64 17.2.4-0ubuntu1~16.04.4 [22.4 kB]
+    virtualbox-iso: Get:79 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libllvm5.0 amd64 1:5.0-3~16.04.1 [13.5 MB]
+    virtualbox-iso: Get:80 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libsensors4 amd64 1:3.4.0-2 [28.4 kB]
+    virtualbox-iso: Get:81 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-dri amd64 17.2.4-0ubuntu1~16.04.4 [5,782 kB]
+    virtualbox-iso: Get:82 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libx11-xcb1 amd64 2:1.6.3-1ubuntu2 [8,956 B]
+    virtualbox-iso: Get:83 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-dri2-0 amd64 1.11.1-1ubuntu1 [6,882 B]
+    virtualbox-iso: Get:84 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-dri3-0 amd64 1.11.1-1ubuntu1 [5,218 B]
+    virtualbox-iso: Get:85 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-glx0 amd64 1.11.1-1ubuntu1 [20.9 kB]
+    virtualbox-iso: Get:86 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-present0 amd64 1.11.1-1ubuntu1 [5,218 B]
+    virtualbox-iso: Get:87 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-sync1 amd64 1.11.1-1ubuntu1 [8,324 B]
+    virtualbox-iso: Get:88 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgl1-mesa-glx amd64 17.2.4-0ubuntu1~16.04.4 [130 kB]
+    virtualbox-iso: Get:89 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgraphite2-3 amd64 1.3.10-0ubuntu0.16.04.1 [71.7 kB]
+    virtualbox-iso: Get:90 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgtk2.0-common all 2.24.30-1ubuntu1.16.04.2 [123 kB]
+    virtualbox-iso: Get:91 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libthai-data all 0.1.24-2 [131 kB]
+    virtualbox-iso: Get:92 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libthai0 amd64 0.1.24-2 [17.3 kB]
+    virtualbox-iso: Get:93 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libpango-1.0-0 amd64 1.38.1-1 [148 kB]
+    virtualbox-iso: Get:94 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libharfbuzz0b amd64 1.0.1-1ubuntu0.1 [140 kB]
+    virtualbox-iso: Get:95 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libpangoft2-1.0-0 amd64 1.38.1-1 [33.3 kB]
+    virtualbox-iso: Get:96 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libpangocairo-1.0-0 amd64 1.38.1-1 [20.5 kB]
+    virtualbox-iso: Get:97 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxcursor1 amd64 1:1.1.14-1ubuntu0.16.04.1 [20.2 kB]
+    virtualbox-iso: Get:98 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxrandr2 amd64 2:1.5.0-1 [17.6 kB]
+    virtualbox-iso: Get:99 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgtk2.0-0 amd64 2.24.30-1ubuntu1.16.04.2 [1,775 kB]
+    virtualbox-iso: Get:100 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgtk2.0-bin amd64 2.24.30-1ubuntu1.16.04.2 [9,834 B]
+    virtualbox-iso: Get:101 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libvorbis0a amd64 1.3.5-3 [86.8 kB]
+    virtualbox-iso: Get:102 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libvorbisenc2 amd64 1.3.5-3 [70.7 kB]
+    virtualbox-iso: Get:103 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsndfile1 amd64 1.0.25-10ubuntu0.16.04.1 [138 kB]
+    virtualbox-iso: Get:104 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpulse0 amd64 1:8.0-0ubuntu3.7 [249 kB]
+    virtualbox-iso: Get:105 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython3.5 amd64 3.5.2-2ubuntu0~16.04.4 [1,360 kB]
+    virtualbox-iso: Get:106 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython3.5-dev amd64 3.5.2-2ubuntu0~16.04.4 [37.3 MB]
+    virtualbox-iso: Get:107 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libpython3-dev amd64 3.5.1-3 [6,926 B]
+    virtualbox-iso: Get:108 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openjdk-8-jre amd64 8u151-b12-0ubuntu0.16.04.2 [69.5 kB]
+    virtualbox-iso: Get:109 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python-pip-whl all 8.1.1-2ubuntu0.4 [1,110 kB]
+    virtualbox-iso: Get:110 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python3.5-dev amd64 3.5.2-2ubuntu0~16.04.4 [413 kB]
+    virtualbox-iso: Get:111 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 python3-dev amd64 3.5.1-3 [1,186 B]
+    virtualbox-iso: Get:112 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python3-pip all 8.1.1-2ubuntu0.4 [109 kB]
+    virtualbox-iso: Get:113 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 python3-setuptools all 20.7.0-1 [88.0 kB]
+    virtualbox-iso: Get:114 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 python3-wheel all 0.29.0-1 [48.1 kB]
+    virtualbox-iso: Get:115 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 rename all 0.20-4 [12.0 kB]
+    virtualbox-iso: debconf: unable to initialize frontend: Dialog
+    virtualbox-iso: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+    virtualbox-iso: debconf: falling back to frontend: Readline
+    virtualbox-iso: debconf: unable to initialize frontend: Readline
+    virtualbox-iso: debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 115.)
+    virtualbox-iso: debconf: falling back to frontend: Teletype
+    virtualbox-iso: dpkg-preconfigure: unable to re-open stdin:
+    virtualbox-iso: Fetched 120 MB in 50s (2,403 kB/s)
+    virtualbox-iso: (Reading database ... 54148 files and directories currently installed.)
+    virtualbox-iso: Preparing to unpack .../perl-base_5.22.1-9ubuntu0.2_amd64.deb ...
+    virtualbox-iso: Unpacking perl-base (5.22.1-9ubuntu0.2) over (5.22.1-9) ...
+    virtualbox-iso: Setting up perl-base (5.22.1-9ubuntu0.2) ...
+    virtualbox-iso: (Reading database ... 54148 files and directories currently installed.)
+    virtualbox-iso: Preparing to unpack .../python3.5_3.5.2-2ubuntu0~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking python3.5 (3.5.2-2ubuntu0~16.04.4) over (3.5.2-2ubuntu0~16.04.1) ...
+    virtualbox-iso: Preparing to unpack .../libpython3.5-stdlib_3.5.2-2ubuntu0~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking libpython3.5-stdlib:amd64 (3.5.2-2ubuntu0~16.04.4) over (3.5.2-2ubuntu0~16.04.1) ...
+    virtualbox-iso: Preparing to unpack .../python3.5-minimal_3.5.2-2ubuntu0~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking python3.5-minimal (3.5.2-2ubuntu0~16.04.4) over (3.5.2-2ubuntu0~16.04.1) ...
+    virtualbox-iso: Preparing to unpack .../libpython3.5-minimal_3.5.2-2ubuntu0~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking libpython3.5-minimal:amd64 (3.5.2-2ubuntu0~16.04.4) over (3.5.2-2ubuntu0~16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libgdbm3:amd64.
+    virtualbox-iso: Preparing to unpack .../libgdbm3_1.8.3-13.1_amd64.deb ...
+    virtualbox-iso: Unpacking libgdbm3:amd64 (1.8.3-13.1) ...
+    virtualbox-iso: Selecting previously unselected package fonts-dejavu-core.
+    virtualbox-iso: Preparing to unpack .../fonts-dejavu-core_2.35-1_all.deb ...
+    virtualbox-iso: Unpacking fonts-dejavu-core (2.35-1) ...
+    virtualbox-iso: Selecting previously unselected package fontconfig-config.
+    virtualbox-iso: Preparing to unpack .../fontconfig-config_2.11.94-0ubuntu1.1_all.deb ...
+    virtualbox-iso: Unpacking fontconfig-config (2.11.94-0ubuntu1.1) ...
+    virtualbox-iso: Selecting previously unselected package libfontconfig1:amd64.
+    virtualbox-iso: Preparing to unpack .../libfontconfig1_2.11.94-0ubuntu1.1_amd64.deb ...
+    virtualbox-iso: Unpacking libfontconfig1:amd64 (2.11.94-0ubuntu1.1) ...
+    virtualbox-iso: Selecting previously unselected package fontconfig.
+    virtualbox-iso: Preparing to unpack .../fontconfig_2.11.94-0ubuntu1.1_amd64.deb ...
+    virtualbox-iso: Unpacking fontconfig (2.11.94-0ubuntu1.1) ...
+    virtualbox-iso: Selecting previously unselected package libasyncns0:amd64.
+    virtualbox-iso: Preparing to unpack .../libasyncns0_0.8-5build1_amd64.deb ...
+    virtualbox-iso: Unpacking libasyncns0:amd64 (0.8-5build1) ...
+    virtualbox-iso: Selecting previously unselected package libjpeg-turbo8:amd64.
+    virtualbox-iso: Preparing to unpack .../libjpeg-turbo8_1.4.2-0ubuntu3_amd64.deb ...
+    virtualbox-iso: Unpacking libjpeg-turbo8:amd64 (1.4.2-0ubuntu3) ...
+    virtualbox-iso: Selecting previously unselected package liblcms2-2:amd64.
+    virtualbox-iso: Preparing to unpack .../liblcms2-2_2.6-3ubuntu2_amd64.deb ...
+    virtualbox-iso: Unpacking liblcms2-2:amd64 (2.6-3ubuntu2) ...
+    virtualbox-iso: Selecting previously unselected package libogg0:amd64.
+    virtualbox-iso: Preparing to unpack .../libogg0_1.3.2-1_amd64.deb ...
+    virtualbox-iso: Unpacking libogg0:amd64 (1.3.2-1) ...
+    virtualbox-iso: Selecting previously unselected package libxcomposite1:amd64.
+    virtualbox-iso: Preparing to unpack .../libxcomposite1_1%3a0.4.4-1_amd64.deb ...
+    virtualbox-iso: Unpacking libxcomposite1:amd64 (1:0.4.4-1) ...
+    virtualbox-iso: Selecting previously unselected package libxdamage1:amd64.
+    virtualbox-iso: Preparing to unpack .../libxdamage1_1%3a1.1.4-2_amd64.deb ...
+    virtualbox-iso: Unpacking libxdamage1:amd64 (1:1.1.4-2) ...
+    virtualbox-iso: Selecting previously unselected package libxfixes3:amd64.
+    virtualbox-iso: Preparing to unpack .../libxfixes3_1%3a5.0.1-2_amd64.deb ...
+    virtualbox-iso: Unpacking libxfixes3:amd64 (1:5.0.1-2) ...
+    virtualbox-iso: Selecting previously unselected package libxinerama1:amd64.
+    virtualbox-iso: Preparing to unpack .../libxinerama1_2%3a1.1.3-1_amd64.deb ...
+    virtualbox-iso: Unpacking libxinerama1:amd64 (2:1.1.3-1) ...
+    virtualbox-iso: Selecting previously unselected package libxshmfence1:amd64.
+    virtualbox-iso: Preparing to unpack .../libxshmfence1_1.2-1_amd64.deb ...
+    virtualbox-iso: Unpacking libxshmfence1:amd64 (1.2-1) ...
+    virtualbox-iso: Selecting previously unselected package x11-common.
+    virtualbox-iso: Preparing to unpack .../x11-common_1%3a7.7+13ubuntu3_all.deb ...
+    virtualbox-iso: Unpacking x11-common (1:7.7+13ubuntu3) ...
+    virtualbox-iso: Selecting previously unselected package libxtst6:amd64.
+    virtualbox-iso: Preparing to unpack .../libxtst6_2%3a1.2.2-1_amd64.deb ...
+    virtualbox-iso: Unpacking libxtst6:amd64 (2:1.2.2-1) ...
+    virtualbox-iso: Selecting previously unselected package libxxf86vm1:amd64.
+    virtualbox-iso: Preparing to unpack .../libxxf86vm1_1%3a1.1.4-1_amd64.deb ...
+    virtualbox-iso: Unpacking libxxf86vm1:amd64 (1:1.1.4-1) ...
+    virtualbox-iso: Selecting previously unselected package perl-modules-5.22.
+    virtualbox-iso: Preparing to unpack .../perl-modules-5.22_5.22.1-9ubuntu0.2_all.deb ...
+    virtualbox-iso: Unpacking perl-modules-5.22 (5.22.1-9ubuntu0.2) ...
+    virtualbox-iso: Selecting previously unselected package libperl5.22:amd64.
+    virtualbox-iso: Preparing to unpack .../libperl5.22_5.22.1-9ubuntu0.2_amd64.deb ...
+    virtualbox-iso: Unpacking libperl5.22:amd64 (5.22.1-9ubuntu0.2) ...
+    virtualbox-iso: Selecting previously unselected package perl.
+    virtualbox-iso: Preparing to unpack .../perl_5.22.1-9ubuntu0.2_amd64.deb ...
+    virtualbox-iso: Unpacking perl (5.22.1-9ubuntu0.2) ...
+    virtualbox-iso: Selecting previously unselected package libjbig0:amd64.
+    virtualbox-iso: Preparing to unpack .../libjbig0_2.1-3.1_amd64.deb ...
+    virtualbox-iso: Unpacking libjbig0:amd64 (2.1-3.1) ...
+    virtualbox-iso: Selecting previously unselected package libtxc-dxtn-s2tc0:amd64.
+    virtualbox-iso: Preparing to unpack .../libtxc-dxtn-s2tc0_0~git20131104-1.1_amd64.deb ...
+    virtualbox-iso: Unpacking libtxc-dxtn-s2tc0:amd64 (0~git20131104-1.1) ...
+    virtualbox-iso: Selecting previously unselected package libdrm-common.
+    virtualbox-iso: Preparing to unpack .../libdrm-common_2.4.83-1~16.04.1_all.deb ...
+    virtualbox-iso: Unpacking libdrm-common (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libdrm2:amd64.
+    virtualbox-iso: Preparing to unpack .../libdrm2_2.4.83-1~16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libdrm2:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libelf1:amd64.
+    virtualbox-iso: Preparing to unpack .../libelf1_0.165-3ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libelf1:amd64 (0.165-3ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libstdc++-5-dev:amd64.
+    virtualbox-iso: Preparing to unpack .../libstdc++-5-dev_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking libstdc++-5-dev:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package g++-5.
+    virtualbox-iso: Preparing to unpack .../g++-5_5.4.0-6ubuntu1~16.04.5_amd64.deb ...
+    virtualbox-iso: Unpacking g++-5 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Selecting previously unselected package g++.
+    virtualbox-iso: Preparing to unpack .../g++_4%3a5.3.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking g++ (4:5.3.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libdpkg-perl.
+    virtualbox-iso: Preparing to unpack .../libdpkg-perl_1.18.4ubuntu1.3_all.deb ...
+    virtualbox-iso: Unpacking libdpkg-perl (1.18.4ubuntu1.3) ...
+    virtualbox-iso: Selecting previously unselected package xz-utils.
+    virtualbox-iso: Preparing to unpack .../xz-utils_5.1.1alpha+20120614-2ubuntu2_amd64.deb ...
+    virtualbox-iso: Unpacking xz-utils (5.1.1alpha+20120614-2ubuntu2) ...
+    virtualbox-iso: Selecting previously unselected package dpkg-dev.
+    virtualbox-iso: Preparing to unpack .../dpkg-dev_1.18.4ubuntu1.3_all.deb ...
+    virtualbox-iso: Unpacking dpkg-dev (1.18.4ubuntu1.3) ...
+    virtualbox-iso: Selecting previously unselected package build-essential.
+    virtualbox-iso: Preparing to unpack .../build-essential_12.1ubuntu2_amd64.deb ...
+    virtualbox-iso: Unpacking build-essential (12.1ubuntu2) ...
+    virtualbox-iso: Selecting previously unselected package java-common.
+    virtualbox-iso: Preparing to unpack .../java-common_0.56ubuntu2_all.deb ...
+    virtualbox-iso: Unpacking java-common (0.56ubuntu2) ...
+    virtualbox-iso: Selecting previously unselected package libavahi-common-data:amd64.
+    virtualbox-iso: Preparing to unpack .../libavahi-common-data_0.6.32~rc+dfsg-1ubuntu2_amd64.deb ...
+    virtualbox-iso: Unpacking libavahi-common-data:amd64 (0.6.32~rc+dfsg-1ubuntu2) ...
+    virtualbox-iso: Selecting previously unselected package libavahi-common3:amd64.
+    virtualbox-iso: Preparing to unpack .../libavahi-common3_0.6.32~rc+dfsg-1ubuntu2_amd64.deb ...
+    virtualbox-iso: Unpacking libavahi-common3:amd64 (0.6.32~rc+dfsg-1ubuntu2) ...
+    virtualbox-iso: Selecting previously unselected package libavahi-client3:amd64.
+    virtualbox-iso: Preparing to unpack .../libavahi-client3_0.6.32~rc+dfsg-1ubuntu2_amd64.deb ...
+    virtualbox-iso: Unpacking libavahi-client3:amd64 (0.6.32~rc+dfsg-1ubuntu2) ...
+    virtualbox-iso: Selecting previously unselected package libcups2:amd64.
+    virtualbox-iso: Preparing to unpack .../libcups2_2.1.3-4ubuntu0.3_amd64.deb ...
+    virtualbox-iso: Unpacking libcups2:amd64 (2.1.3-4ubuntu0.3) ...
+    virtualbox-iso: Selecting previously unselected package libjpeg8:amd64.
+    virtualbox-iso: Preparing to unpack .../libjpeg8_8c-2ubuntu8_amd64.deb ...
+    virtualbox-iso: Unpacking libjpeg8:amd64 (8c-2ubuntu8) ...
+    virtualbox-iso: Selecting previously unselected package libnspr4:amd64.
+    virtualbox-iso: Preparing to unpack .../libnspr4_2%3a4.13.1-0ubuntu0.16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libnspr4:amd64 (2:4.13.1-0ubuntu0.16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libnss3-nssdb.
+    virtualbox-iso: Preparing to unpack .../libnss3-nssdb_2%3a3.28.4-0ubuntu0.16.04.3_all.deb ...
+    virtualbox-iso: Unpacking libnss3-nssdb (2:3.28.4-0ubuntu0.16.04.3) ...
+    virtualbox-iso: Selecting previously unselected package libnss3:amd64.
+    virtualbox-iso: Preparing to unpack .../libnss3_2%3a3.28.4-0ubuntu0.16.04.3_amd64.deb ...
+    virtualbox-iso: Unpacking libnss3:amd64 (2:3.28.4-0ubuntu0.16.04.3) ...
+    virtualbox-iso: Selecting previously unselected package libpcsclite1:amd64.
+    virtualbox-iso: Preparing to unpack .../libpcsclite1_1.8.14-1ubuntu1.16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libpcsclite1:amd64 (1.8.14-1ubuntu1.16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libxi6:amd64.
+    virtualbox-iso: Preparing to unpack .../libxi6_2%3a1.7.6-1_amd64.deb ...
+    virtualbox-iso: Unpacking libxi6:amd64 (2:1.7.6-1) ...
+    virtualbox-iso: Selecting previously unselected package libxrender1:amd64.
+    virtualbox-iso: Preparing to unpack .../libxrender1_1%3a0.9.9-0ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libxrender1:amd64 (1:0.9.9-0ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package openjdk-8-jre-headless:amd64.
+    virtualbox-iso: Preparing to unpack .../openjdk-8-jre-headless_8u151-b12-0ubuntu0.16.04.2_amd64.deb ...
+    virtualbox-iso: Unpacking openjdk-8-jre-headless:amd64 (8u151-b12-0ubuntu0.16.04.2) ...
+    virtualbox-iso: Selecting previously unselected package ca-certificates-java.
+    virtualbox-iso: Preparing to unpack .../ca-certificates-java_20160321ubuntu1_all.deb ...
+    virtualbox-iso: Unpacking ca-certificates-java (20160321ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package fonts-dejavu-extra.
+    virtualbox-iso: Preparing to unpack .../fonts-dejavu-extra_2.35-1_all.deb ...
+    virtualbox-iso: Unpacking fonts-dejavu-extra (2.35-1) ...
+    virtualbox-iso: Selecting previously unselected package hicolor-icon-theme.
+    virtualbox-iso: Preparing to unpack .../hicolor-icon-theme_0.15-0ubuntu1_all.deb ...
+    virtualbox-iso: Unpacking hicolor-icon-theme (0.15-0ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libalgorithm-diff-perl.
+    virtualbox-iso: Preparing to unpack .../libalgorithm-diff-perl_1.19.03-1_all.deb ...
+    virtualbox-iso: Unpacking libalgorithm-diff-perl (1.19.03-1) ...
+    virtualbox-iso: Selecting previously unselected package libalgorithm-diff-xs-perl.
+    virtualbox-iso: Preparing to unpack .../libalgorithm-diff-xs-perl_0.04-4build1_amd64.deb ...
+    virtualbox-iso: Unpacking libalgorithm-diff-xs-perl (0.04-4build1) ...
+    virtualbox-iso: Selecting previously unselected package libalgorithm-merge-perl.
+    virtualbox-iso: Preparing to unpack .../libalgorithm-merge-perl_0.08-3_all.deb ...
+    virtualbox-iso: Unpacking libalgorithm-merge-perl (0.08-3) ...
+    virtualbox-iso: Selecting previously unselected package libasound2-data.
+    virtualbox-iso: Preparing to unpack .../libasound2-data_1.1.0-0ubuntu1_all.deb ...
+    virtualbox-iso: Unpacking libasound2-data (1.1.0-0ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libasound2:amd64.
+    virtualbox-iso: Preparing to unpack .../libasound2_1.1.0-0ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libasound2:amd64 (1.1.0-0ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libatk1.0-data.
+    virtualbox-iso: Preparing to unpack .../libatk1.0-data_2.18.0-1_all.deb ...
+    virtualbox-iso: Unpacking libatk1.0-data (2.18.0-1) ...
+    virtualbox-iso: Selecting previously unselected package libatk1.0-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libatk1.0-0_2.18.0-1_amd64.deb ...
+    virtualbox-iso: Unpacking libatk1.0-0:amd64 (2.18.0-1) ...
+    virtualbox-iso: Selecting previously unselected package libpixman-1-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libpixman-1-0_0.33.6-1_amd64.deb ...
+    virtualbox-iso: Unpacking libpixman-1-0:amd64 (0.33.6-1) ...
+    virtualbox-iso: Selecting previously unselected package libxcb-render0:amd64.
+    virtualbox-iso: Preparing to unpack .../libxcb-render0_1.11.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libxcb-render0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libxcb-shm0:amd64.
+    virtualbox-iso: Preparing to unpack .../libxcb-shm0_1.11.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libxcb-shm0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libcairo2:amd64.
+    virtualbox-iso: Preparing to unpack .../libcairo2_1.14.6-1_amd64.deb ...
+    virtualbox-iso: Unpacking libcairo2:amd64 (1.14.6-1) ...
+    virtualbox-iso: Selecting previously unselected package libdatrie1:amd64.
+    virtualbox-iso: Preparing to unpack .../libdatrie1_0.2.10-2_amd64.deb ...
+    virtualbox-iso: Unpacking libdatrie1:amd64 (0.2.10-2) ...
+    virtualbox-iso: Selecting previously unselected package libdrm-amdgpu1:amd64.
+    virtualbox-iso: Preparing to unpack .../libdrm-amdgpu1_2.4.83-1~16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libdrm-amdgpu1:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libpciaccess0:amd64.
+    virtualbox-iso: Preparing to unpack .../libpciaccess0_0.13.4-1_amd64.deb ...
+    virtualbox-iso: Unpacking libpciaccess0:amd64 (0.13.4-1) ...
+    virtualbox-iso: Selecting previously unselected package libdrm-intel1:amd64.
+    virtualbox-iso: Preparing to unpack .../libdrm-intel1_2.4.83-1~16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libdrm-intel1:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libdrm-nouveau2:amd64.
+    virtualbox-iso: Preparing to unpack .../libdrm-nouveau2_2.4.83-1~16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libdrm-nouveau2:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libdrm-radeon1:amd64.
+    virtualbox-iso: Preparing to unpack .../libdrm-radeon1_2.4.83-1~16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libdrm-radeon1:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libexpat1-dev:amd64.
+    virtualbox-iso: Preparing to unpack .../libexpat1-dev_2.1.0-7ubuntu0.16.04.3_amd64.deb ...
+    virtualbox-iso: Unpacking libexpat1-dev:amd64 (2.1.0-7ubuntu0.16.04.3) ...
+    virtualbox-iso: Selecting previously unselected package libfile-fcntllock-perl.
+    virtualbox-iso: Preparing to unpack .../libfile-fcntllock-perl_0.22-3_amd64.deb ...
+    virtualbox-iso: Unpacking libfile-fcntllock-perl (0.22-3) ...
+    virtualbox-iso: Selecting previously unselected package libflac8:amd64.
+    virtualbox-iso: Preparing to unpack .../libflac8_1.3.1-4_amd64.deb ...
+    virtualbox-iso: Unpacking libflac8:amd64 (1.3.1-4) ...
+    virtualbox-iso: Selecting previously unselected package libtiff5:amd64.
+    virtualbox-iso: Preparing to unpack .../libtiff5_4.0.6-1ubuntu0.2_amd64.deb ...
+    virtualbox-iso: Unpacking libtiff5:amd64 (4.0.6-1ubuntu0.2) ...
+    virtualbox-iso: Selecting previously unselected package libgdk-pixbuf2.0-common.
+    virtualbox-iso: Preparing to unpack .../libgdk-pixbuf2.0-common_2.32.2-1ubuntu1.4_all.deb ...
+    virtualbox-iso: Unpacking libgdk-pixbuf2.0-common (2.32.2-1ubuntu1.4) ...
+    virtualbox-iso: Selecting previously unselected package libgdk-pixbuf2.0-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libgdk-pixbuf2.0-0_2.32.2-1ubuntu1.4_amd64.deb ...
+    virtualbox-iso: Unpacking libgdk-pixbuf2.0-0:amd64 (2.32.2-1ubuntu1.4) ...
+    virtualbox-iso: Selecting previously unselected package libgif7:amd64.
+    virtualbox-iso: Preparing to unpack .../libgif7_5.1.4-0.3~16.04_amd64.deb ...
+    virtualbox-iso: Unpacking libgif7:amd64 (5.1.4-0.3~16.04) ...
+    virtualbox-iso: Selecting previously unselected package libglapi-mesa:amd64.
+    virtualbox-iso: Preparing to unpack .../libglapi-mesa_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking libglapi-mesa:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+    virtualbox-iso: Selecting previously unselected package libllvm5.0:amd64.
+    virtualbox-iso: Preparing to unpack .../libllvm5.0_1%3a5.0-3~16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libllvm5.0:amd64 (1:5.0-3~16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libsensors4:amd64.
+    virtualbox-iso: Preparing to unpack .../libsensors4_1%3a3.4.0-2_amd64.deb ...
+    virtualbox-iso: Unpacking libsensors4:amd64 (1:3.4.0-2) ...
+    virtualbox-iso: Selecting previously unselected package libgl1-mesa-dri:amd64.
+    virtualbox-iso: Preparing to unpack .../libgl1-mesa-dri_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking libgl1-mesa-dri:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+    virtualbox-iso: Selecting previously unselected package libx11-xcb1:amd64.
+    virtualbox-iso: Preparing to unpack .../libx11-xcb1_2%3a1.6.3-1ubuntu2_amd64.deb ...
+    virtualbox-iso: Unpacking libx11-xcb1:amd64 (2:1.6.3-1ubuntu2) ...
+    virtualbox-iso: Selecting previously unselected package libxcb-dri2-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libxcb-dri2-0_1.11.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libxcb-dri2-0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libxcb-dri3-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libxcb-dri3-0_1.11.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libxcb-dri3-0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libxcb-glx0:amd64.
+    virtualbox-iso: Preparing to unpack .../libxcb-glx0_1.11.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libxcb-glx0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libxcb-present0:amd64.
+    virtualbox-iso: Preparing to unpack .../libxcb-present0_1.11.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libxcb-present0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libxcb-sync1:amd64.
+    virtualbox-iso: Preparing to unpack .../libxcb-sync1_1.11.1-1ubuntu1_amd64.deb ...
+    virtualbox-iso: Unpacking libxcb-sync1:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Selecting previously unselected package libgl1-mesa-glx:amd64.
+    virtualbox-iso: Preparing to unpack .../libgl1-mesa-glx_17.2.4-0ubuntu1~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking libgl1-mesa-glx:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+    virtualbox-iso: Selecting previously unselected package libgraphite2-3:amd64.
+    virtualbox-iso: Preparing to unpack .../libgraphite2-3_1.3.10-0ubuntu0.16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libgraphite2-3:amd64 (1.3.10-0ubuntu0.16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libgtk2.0-common.
+    virtualbox-iso: Preparing to unpack .../libgtk2.0-common_2.24.30-1ubuntu1.16.04.2_all.deb ...
+    virtualbox-iso: Unpacking libgtk2.0-common (2.24.30-1ubuntu1.16.04.2) ...
+    virtualbox-iso: Selecting previously unselected package libthai-data.
+    virtualbox-iso: Preparing to unpack .../libthai-data_0.1.24-2_all.deb ...
+    virtualbox-iso: Unpacking libthai-data (0.1.24-2) ...
+    virtualbox-iso: Selecting previously unselected package libthai0:amd64.
+    virtualbox-iso: Preparing to unpack .../libthai0_0.1.24-2_amd64.deb ...
+    virtualbox-iso: Unpacking libthai0:amd64 (0.1.24-2) ...
+    virtualbox-iso: Selecting previously unselected package libpango-1.0-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libpango-1.0-0_1.38.1-1_amd64.deb ...
+    virtualbox-iso: Unpacking libpango-1.0-0:amd64 (1.38.1-1) ...
+    virtualbox-iso: Selecting previously unselected package libharfbuzz0b:amd64.
+    virtualbox-iso: Preparing to unpack .../libharfbuzz0b_1.0.1-1ubuntu0.1_amd64.deb ...
+    virtualbox-iso: Unpacking libharfbuzz0b:amd64 (1.0.1-1ubuntu0.1) ...
+    virtualbox-iso: Selecting previously unselected package libpangoft2-1.0-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libpangoft2-1.0-0_1.38.1-1_amd64.deb ...
+    virtualbox-iso: Unpacking libpangoft2-1.0-0:amd64 (1.38.1-1) ...
+    virtualbox-iso: Selecting previously unselected package libpangocairo-1.0-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libpangocairo-1.0-0_1.38.1-1_amd64.deb ...
+    virtualbox-iso: Unpacking libpangocairo-1.0-0:amd64 (1.38.1-1) ...
+    virtualbox-iso: Selecting previously unselected package libxcursor1:amd64.
+    virtualbox-iso: Preparing to unpack .../libxcursor1_1%3a1.1.14-1ubuntu0.16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libxcursor1:amd64 (1:1.1.14-1ubuntu0.16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libxrandr2:amd64.
+    virtualbox-iso: Preparing to unpack .../libxrandr2_2%3a1.5.0-1_amd64.deb ...
+    virtualbox-iso: Unpacking libxrandr2:amd64 (2:1.5.0-1) ...
+    virtualbox-iso: Selecting previously unselected package libgtk2.0-0:amd64.
+    virtualbox-iso: Preparing to unpack .../libgtk2.0-0_2.24.30-1ubuntu1.16.04.2_amd64.deb ...
+    virtualbox-iso: Unpacking libgtk2.0-0:amd64 (2.24.30-1ubuntu1.16.04.2) ...
+    virtualbox-iso: Selecting previously unselected package libgtk2.0-bin.
+    virtualbox-iso: Preparing to unpack .../libgtk2.0-bin_2.24.30-1ubuntu1.16.04.2_amd64.deb ...
+    virtualbox-iso: Unpacking libgtk2.0-bin (2.24.30-1ubuntu1.16.04.2) ...
+    virtualbox-iso: Selecting previously unselected package libvorbis0a:amd64.
+    virtualbox-iso: Preparing to unpack .../libvorbis0a_1.3.5-3_amd64.deb ...
+    virtualbox-iso: Unpacking libvorbis0a:amd64 (1.3.5-3) ...
+    virtualbox-iso: Selecting previously unselected package libvorbisenc2:amd64.
+    virtualbox-iso: Preparing to unpack .../libvorbisenc2_1.3.5-3_amd64.deb ...
+    virtualbox-iso: Unpacking libvorbisenc2:amd64 (1.3.5-3) ...
+    virtualbox-iso: Selecting previously unselected package libsndfile1:amd64.
+    virtualbox-iso: Preparing to unpack .../libsndfile1_1.0.25-10ubuntu0.16.04.1_amd64.deb ...
+    virtualbox-iso: Unpacking libsndfile1:amd64 (1.0.25-10ubuntu0.16.04.1) ...
+    virtualbox-iso: Selecting previously unselected package libpulse0:amd64.
+    virtualbox-iso: Preparing to unpack .../libpulse0_1%3a8.0-0ubuntu3.7_amd64.deb ...
+    virtualbox-iso: Unpacking libpulse0:amd64 (1:8.0-0ubuntu3.7) ...
+    virtualbox-iso: Selecting previously unselected package libpython3.5:amd64.
+    virtualbox-iso: Preparing to unpack .../libpython3.5_3.5.2-2ubuntu0~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking libpython3.5:amd64 (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Selecting previously unselected package libpython3.5-dev:amd64.
+    virtualbox-iso: Preparing to unpack .../libpython3.5-dev_3.5.2-2ubuntu0~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking libpython3.5-dev:amd64 (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Selecting previously unselected package libpython3-dev:amd64.
+    virtualbox-iso: Preparing to unpack .../libpython3-dev_3.5.1-3_amd64.deb ...
+    virtualbox-iso: Unpacking libpython3-dev:amd64 (3.5.1-3) ...
+    virtualbox-iso: Selecting previously unselected package openjdk-8-jre:amd64.
+    virtualbox-iso: Preparing to unpack .../openjdk-8-jre_8u151-b12-0ubuntu0.16.04.2_amd64.deb ...
+    virtualbox-iso: Unpacking openjdk-8-jre:amd64 (8u151-b12-0ubuntu0.16.04.2) ...
+    virtualbox-iso: Selecting previously unselected package python-pip-whl.
+    virtualbox-iso: Preparing to unpack .../python-pip-whl_8.1.1-2ubuntu0.4_all.deb ...
+    virtualbox-iso: Unpacking python-pip-whl (8.1.1-2ubuntu0.4) ...
+    virtualbox-iso: Selecting previously unselected package python3.5-dev.
+    virtualbox-iso: Preparing to unpack .../python3.5-dev_3.5.2-2ubuntu0~16.04.4_amd64.deb ...
+    virtualbox-iso: Unpacking python3.5-dev (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Selecting previously unselected package python3-dev.
+    virtualbox-iso: Preparing to unpack .../python3-dev_3.5.1-3_amd64.deb ...
+    virtualbox-iso: Unpacking python3-dev (3.5.1-3) ...
+    virtualbox-iso: Selecting previously unselected package python3-pip.
+    virtualbox-iso: Preparing to unpack .../python3-pip_8.1.1-2ubuntu0.4_all.deb ...
+    virtualbox-iso: Unpacking python3-pip (8.1.1-2ubuntu0.4) ...
+    virtualbox-iso: Selecting previously unselected package python3-setuptools.
+    virtualbox-iso: Preparing to unpack .../python3-setuptools_20.7.0-1_all.deb ...
+    virtualbox-iso: Unpacking python3-setuptools (20.7.0-1) ...
+    virtualbox-iso: Selecting previously unselected package python3-wheel.
+    virtualbox-iso: Preparing to unpack .../python3-wheel_0.29.0-1_all.deb ...
+    virtualbox-iso: Unpacking python3-wheel (0.29.0-1) ...
+    virtualbox-iso: Selecting previously unselected package rename.
+    virtualbox-iso: Preparing to unpack .../archives/rename_0.20-4_all.deb ...
+    virtualbox-iso: Unpacking rename (0.20-4) ...
+    virtualbox-iso: Processing triggers for mime-support (3.59ubuntu1) ...
+    virtualbox-iso: Processing triggers for libc-bin (2.23-0ubuntu9) ...
+    virtualbox-iso: Processing triggers for systemd (229-4ubuntu19) ...
+    virtualbox-iso: Processing triggers for ureadahead (0.100.0-19) ...
+    virtualbox-iso: Processing triggers for ca-certificates (20170717~16.04.1) ...
+    virtualbox-iso: Updating certificates in /etc/ssl/certs...
+    virtualbox-iso: 0 added, 0 removed; done.
+    virtualbox-iso: Running hooks in /etc/ca-certificates/update.d...
+    virtualbox-iso: done.
+    virtualbox-iso: Setting up libpython3.5-minimal:amd64 (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Setting up python3.5-minimal (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Setting up libpython3.5-stdlib:amd64 (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Setting up python3.5 (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Setting up libgdbm3:amd64 (1.8.3-13.1) ...
+    virtualbox-iso: Setting up fonts-dejavu-core (2.35-1) ...
+    virtualbox-iso: Setting up fontconfig-config (2.11.94-0ubuntu1.1) ...
+    virtualbox-iso: Setting up libfontconfig1:amd64 (2.11.94-0ubuntu1.1) ...
+    virtualbox-iso: Setting up fontconfig (2.11.94-0ubuntu1.1) ...
+    virtualbox-iso: Regenerating fonts cache... done.
+    virtualbox-iso: Setting up libasyncns0:amd64 (0.8-5build1) ...
+    virtualbox-iso: Setting up libjpeg-turbo8:amd64 (1.4.2-0ubuntu3) ...
+    virtualbox-iso: Setting up liblcms2-2:amd64 (2.6-3ubuntu2) ...
+    virtualbox-iso: Setting up libogg0:amd64 (1.3.2-1) ...
+    virtualbox-iso: Setting up libxcomposite1:amd64 (1:0.4.4-1) ...
+    virtualbox-iso: Setting up libxdamage1:amd64 (1:1.1.4-2) ...
+    virtualbox-iso: Setting up libxfixes3:amd64 (1:5.0.1-2) ...
+    virtualbox-iso: Setting up libxinerama1:amd64 (2:1.1.3-1) ...
+    virtualbox-iso: Setting up libxshmfence1:amd64 (1.2-1) ...
+    virtualbox-iso: Setting up x11-common (1:7.7+13ubuntu3) ...
+    virtualbox-iso: debconf: unable to initialize frontend: Dialog
+    virtualbox-iso: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+    virtualbox-iso: debconf: falling back to frontend: Readline
+    virtualbox-iso: update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+    virtualbox-iso: Setting up libxtst6:amd64 (2:1.2.2-1) ...
+    virtualbox-iso: Setting up libxxf86vm1:amd64 (1:1.1.4-1) ...
+    virtualbox-iso: Setting up perl-modules-5.22 (5.22.1-9ubuntu0.2) ...
+    virtualbox-iso: Setting up libperl5.22:amd64 (5.22.1-9ubuntu0.2) ...
+    virtualbox-iso: Setting up perl (5.22.1-9ubuntu0.2) ...
+    virtualbox-iso: update-alternatives: using /usr/bin/prename to provide /usr/bin/rename (rename) in auto mode
+    virtualbox-iso: Setting up libjbig0:amd64 (2.1-3.1) ...
+    virtualbox-iso: Setting up libtxc-dxtn-s2tc0:amd64 (0~git20131104-1.1) ...
+    virtualbox-iso: update-alternatives: using /usr/lib/x86_64-linux-gnu/libtxc_dxtn_s2tc.so.0 to provide /usr/lib/x86_64-linux-gnu/libtxc_dxtn.so (libtxc-dxtn-x86_64-linux-gnu) in auto mode
+    virtualbox-iso: Setting up libdrm-common (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Setting up libdrm2:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Setting up libelf1:amd64 (0.165-3ubuntu1) ...
+    virtualbox-iso: Setting up libstdc++-5-dev:amd64 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up g++-5 (5.4.0-6ubuntu1~16.04.5) ...
+    virtualbox-iso: Setting up g++ (4:5.3.1-1ubuntu1) ...
+    virtualbox-iso: update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+    virtualbox-iso: Setting up libdpkg-perl (1.18.4ubuntu1.3) ...
+    virtualbox-iso: Setting up xz-utils (5.1.1alpha+20120614-2ubuntu2) ...
+    virtualbox-iso: update-alternatives: using /usr/bin/xz to provide /usr/bin/lzma (lzma) in auto mode
+    virtualbox-iso: Setting up dpkg-dev (1.18.4ubuntu1.3) ...
+    virtualbox-iso: Setting up build-essential (12.1ubuntu2) ...
+    virtualbox-iso: Setting up java-common (0.56ubuntu2) ...
+    virtualbox-iso: Setting up libavahi-common-data:amd64 (0.6.32~rc+dfsg-1ubuntu2) ...
+    virtualbox-iso: Setting up libavahi-common3:amd64 (0.6.32~rc+dfsg-1ubuntu2) ...
+    virtualbox-iso: Setting up libavahi-client3:amd64 (0.6.32~rc+dfsg-1ubuntu2) ...
+    virtualbox-iso: Setting up libcups2:amd64 (2.1.3-4ubuntu0.3) ...
+    virtualbox-iso: Setting up libjpeg8:amd64 (8c-2ubuntu8) ...
+    virtualbox-iso: Setting up libnspr4:amd64 (2:4.13.1-0ubuntu0.16.04.1) ...
+    virtualbox-iso: Setting up libpcsclite1:amd64 (1.8.14-1ubuntu1.16.04.1) ...
+    virtualbox-iso: Setting up libxi6:amd64 (2:1.7.6-1) ...
+    virtualbox-iso: Setting up libxrender1:amd64 (1:0.9.9-0ubuntu1) ...
+    virtualbox-iso: Setting up fonts-dejavu-extra (2.35-1) ...
+    virtualbox-iso: Setting up hicolor-icon-theme (0.15-0ubuntu1) ...
+    virtualbox-iso: Setting up libalgorithm-diff-perl (1.19.03-1) ...
+    virtualbox-iso: Setting up libalgorithm-diff-xs-perl (0.04-4build1) ...
+    virtualbox-iso: Setting up libalgorithm-merge-perl (0.08-3) ...
+    virtualbox-iso: Setting up libasound2-data (1.1.0-0ubuntu1) ...
+    virtualbox-iso: Setting up libasound2:amd64 (1.1.0-0ubuntu1) ...
+    virtualbox-iso: Setting up libatk1.0-data (2.18.0-1) ...
+    virtualbox-iso: Setting up libatk1.0-0:amd64 (2.18.0-1) ...
+    virtualbox-iso: Setting up libpixman-1-0:amd64 (0.33.6-1) ...
+    virtualbox-iso: Setting up libxcb-render0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Setting up libxcb-shm0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Setting up libcairo2:amd64 (1.14.6-1) ...
+    virtualbox-iso: Setting up libdatrie1:amd64 (0.2.10-2) ...
+    virtualbox-iso: Setting up libdrm-amdgpu1:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Setting up libpciaccess0:amd64 (0.13.4-1) ...
+    virtualbox-iso: Setting up libdrm-intel1:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Setting up libdrm-nouveau2:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Setting up libdrm-radeon1:amd64 (2.4.83-1~16.04.1) ...
+    virtualbox-iso: Setting up libexpat1-dev:amd64 (2.1.0-7ubuntu0.16.04.3) ...
+    virtualbox-iso: Setting up libfile-fcntllock-perl (0.22-3) ...
+    virtualbox-iso: Setting up libflac8:amd64 (1.3.1-4) ...
+    virtualbox-iso: Setting up libtiff5:amd64 (4.0.6-1ubuntu0.2) ...
+    virtualbox-iso: Setting up libgdk-pixbuf2.0-common (2.32.2-1ubuntu1.4) ...
+    virtualbox-iso: Setting up libgdk-pixbuf2.0-0:amd64 (2.32.2-1ubuntu1.4) ...
+    virtualbox-iso: Setting up libgif7:amd64 (5.1.4-0.3~16.04) ...
+    virtualbox-iso: Setting up libglapi-mesa:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+    virtualbox-iso: Setting up libllvm5.0:amd64 (1:5.0-3~16.04.1) ...
+    virtualbox-iso: Setting up libsensors4:amd64 (1:3.4.0-2) ...
+    virtualbox-iso: Setting up libgl1-mesa-dri:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+    virtualbox-iso: Setting up libx11-xcb1:amd64 (2:1.6.3-1ubuntu2) ...
+    virtualbox-iso: Setting up libxcb-dri2-0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Setting up libxcb-dri3-0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Setting up libxcb-glx0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Setting up libxcb-present0:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Setting up libxcb-sync1:amd64 (1.11.1-1ubuntu1) ...
+    virtualbox-iso: Setting up libgl1-mesa-glx:amd64 (17.2.4-0ubuntu1~16.04.4) ...
+    virtualbox-iso: update-alternatives: using /usr/lib/x86_64-linux-gnu/mesa/ld.so.conf to provide /etc/ld.so.conf.d/x86_64-linux-gnu_GL.conf (x86_64-linux-gnu_gl_conf) in auto mode
+    virtualbox-iso: Setting up libgraphite2-3:amd64 (1.3.10-0ubuntu0.16.04.1) ...
+    virtualbox-iso: Setting up libgtk2.0-common (2.24.30-1ubuntu1.16.04.2) ...
+    virtualbox-iso: Setting up libthai-data (0.1.24-2) ...
+    virtualbox-iso: Setting up libthai0:amd64 (0.1.24-2) ...
+    virtualbox-iso: Setting up libpango-1.0-0:amd64 (1.38.1-1) ...
+    virtualbox-iso: Setting up libharfbuzz0b:amd64 (1.0.1-1ubuntu0.1) ...
+    virtualbox-iso: Setting up libpangoft2-1.0-0:amd64 (1.38.1-1) ...
+    virtualbox-iso: Setting up libpangocairo-1.0-0:amd64 (1.38.1-1) ...
+    virtualbox-iso: Setting up libxcursor1:amd64 (1:1.1.14-1ubuntu0.16.04.1) ...
+    virtualbox-iso: Setting up libxrandr2:amd64 (2:1.5.0-1) ...
+    virtualbox-iso: Setting up libgtk2.0-0:amd64 (2.24.30-1ubuntu1.16.04.2) ...
+    virtualbox-iso: Setting up libgtk2.0-bin (2.24.30-1ubuntu1.16.04.2) ...
+    virtualbox-iso: Setting up libvorbis0a:amd64 (1.3.5-3) ...
+    virtualbox-iso: Setting up libvorbisenc2:amd64 (1.3.5-3) ...
+    virtualbox-iso: Setting up libsndfile1:amd64 (1.0.25-10ubuntu0.16.04.1) ...
+    virtualbox-iso: Setting up libpulse0:amd64 (1:8.0-0ubuntu3.7) ...
+    virtualbox-iso: Setting up libpython3.5:amd64 (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Setting up libpython3.5-dev:amd64 (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Setting up libpython3-dev:amd64 (3.5.1-3) ...
+    virtualbox-iso: Setting up python-pip-whl (8.1.1-2ubuntu0.4) ...
+    virtualbox-iso: Setting up python3.5-dev (3.5.2-2ubuntu0~16.04.4) ...
+    virtualbox-iso: Setting up python3-dev (3.5.1-3) ...
+    virtualbox-iso: Setting up python3-pip (8.1.1-2ubuntu0.4) ...
+    virtualbox-iso: Setting up python3-setuptools (20.7.0-1) ...
+    virtualbox-iso: Setting up python3-wheel (0.29.0-1) ...
+    virtualbox-iso: Setting up rename (0.20-4) ...
+    virtualbox-iso: update-alternatives: using /usr/bin/file-rename to provide /usr/bin/rename (rename) in auto mode
+    virtualbox-iso: Setting up libnss3-nssdb (2:3.28.4-0ubuntu0.16.04.3) ...
+    virtualbox-iso: Setting up libnss3:amd64 (2:3.28.4-0ubuntu0.16.04.3) ...
+    virtualbox-iso: Setting up openjdk-8-jre-headless:amd64 (8u151-b12-0ubuntu0.16.04.2) ...
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/jjs to provide /usr/bin/jjs (jjs) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/orbd to provide /usr/bin/orbd (orbd) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/servertool to provide /usr/bin/servertool (servertool) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/tnameserv to provide /usr/bin/tnameserv (tnameserv) in auto mode
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+    virtualbox-iso: Setting up ca-certificates-java (20160321ubuntu1) ...
+    virtualbox-iso: Adding debian:Hongkong_Post_Root_CA_1.pem
+    virtualbox-iso: Adding debian:GeoTrust_Primary_Certification_Authority_-_G2.pem
+    virtualbox-iso: Adding debian:COMODO_ECC_Certification_Authority.pem
+    virtualbox-iso: Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+    virtualbox-iso: Adding debian:Comodo_AAA_Services_root.pem
+    virtualbox-iso: Adding debian:Global_Chambersign_Root_-_2008.pem
+    virtualbox-iso: Adding debian:CA_Disig_Root_R1.pem
+    virtualbox-iso: Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+    virtualbox-iso: Adding debian:AffirmTrust_Commercial.pem
+    virtualbox-iso: Adding debian:SecureSign_RootCA11.pem
+    virtualbox-iso: Adding debian:UTN_USERFirst_Hardware_Root_CA.pem
+    virtualbox-iso: Adding debian:TURKTRUST_Certificate_Services_Provider_Root_2007.pem
+    virtualbox-iso: Adding debian:ACCVRAIZ1.pem
+    virtualbox-iso: Adding debian:COMODO_Certification_Authority.pem
+    virtualbox-iso: Adding debian:Certum_Root_CA.pem
+    virtualbox-iso: Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+    virtualbox-iso: Adding debian:Certplus_Root_CA_G1.pem
+    virtualbox-iso: Adding debian:ISRG_Root_X1.pem
+    virtualbox-iso: Adding debian:Entrust_Root_Certification_Authority_-_G2.pem
+    virtualbox-iso: Adding debian:IdenTrust_Public_Sector_Root_CA_1.pem
+    virtualbox-iso: Adding debian:Network_Solutions_Certificate_Authority.pem
+    virtualbox-iso: Adding debian:Certinomis_-_Root_CA.pem
+    virtualbox-iso: Adding debian:COMODO_RSA_Certification_Authority.pem
+    virtualbox-iso: Adding debian:QuoVadis_Root_CA_1_G3.pem
+    virtualbox-iso: Adding debian:Amazon_Root_CA_3.pem
+    virtualbox-iso: Adding debian:Security_Communication_Root_CA.pem
+    virtualbox-iso: Adding debian:Sonera_Class_2_Root_CA.pem
+    virtualbox-iso: Adding debian:TWCA_Root_Certification_Authority.pem
+    virtualbox-iso: Adding debian:Certum_Trusted_Network_CA.pem
+    virtualbox-iso: Adding debian:Actalis_Authentication_Root_CA.pem
+    virtualbox-iso: Adding debian:Secure_Global_CA.pem
+    virtualbox-iso: Adding debian:GeoTrust_Universal_CA_2.pem
+    virtualbox-iso: Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+    virtualbox-iso: Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+    virtualbox-iso: Adding debian:GlobalSign_Root_CA_-_R3.pem
+    virtualbox-iso: Adding debian:AffirmTrust_Premium_ECC.pem
+    virtualbox-iso: Adding debian:Trustis_FPS_Root_CA.pem
+    virtualbox-iso: Adding debian:XRamp_Global_CA_Root.pem
+    virtualbox-iso: Adding debian:Camerfirma_Chambers_of_Commerce_Root.pem
+    virtualbox-iso: Adding debian:AffirmTrust_Networking.pem
+    virtualbox-iso: Adding debian:Go_Daddy_Class_2_CA.pem
+    virtualbox-iso: Adding debian:China_Internet_Network_Information_Center_EV_Certificates_Root.pem
+    virtualbox-iso: Adding debian:Swisscom_Root_EV_CA_2.pem
+    virtualbox-iso: Adding debian:DigiCert_Assured_ID_Root_G2.pem
+    virtualbox-iso: Adding debian:ePKI_Root_Certification_Authority.pem
+    virtualbox-iso: Adding debian:EC-ACC.pem
+    virtualbox-iso: Adding debian:Certinomis_-_Autorité_Racine.pem
+    virtualbox-iso: Adding debian:Comodo_Trusted_Services_root.pem
+    virtualbox-iso: Adding debian:QuoVadis_Root_CA_2.pem
+    virtualbox-iso: Adding debian:Deutsche_Telekom_Root_CA_2.pem
+    virtualbox-iso: Adding debian:GeoTrust_Universal_CA.pem
+    virtualbox-iso: Adding debian:DigiCert_Assured_ID_Root_G3.pem
+    virtualbox-iso: Adding debian:thawte_Primary_Root_CA.pem
+    virtualbox-iso: Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+    virtualbox-iso: Adding debian:DST_Root_CA_X3.pem
+    virtualbox-iso: Adding debian:OISTE_WISeKey_Global_Root_GA_CA.pem
+    virtualbox-iso: Adding debian:Certigna.pem
+    virtualbox-iso: Adding debian:Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+    virtualbox-iso: Adding debian:GlobalSign_ECC_Root_CA_-_R4.pem
+    virtualbox-iso: Adding debian:GeoTrust_Primary_Certification_Authority.pem
+    virtualbox-iso: Adding debian:USERTrust_ECC_Certification_Authority.pem
+    virtualbox-iso: Adding debian:TWCA_Global_Root_CA.pem
+    virtualbox-iso: Adding debian:Taiwan_GRCA.pem
+    virtualbox-iso: Adding debian:DigiCert_Global_Root_G2.pem
+    virtualbox-iso: Adding debian:Security_Communication_EV_RootCA1.pem
+    virtualbox-iso: Adding debian:CFCA_EV_ROOT.pem
+    virtualbox-iso: Adding debian:T-TeleSec_GlobalRoot_Class_2.pem
+    virtualbox-iso: Adding debian:EE_Certification_Centre_Root_CA.pem
+    virtualbox-iso: Adding debian:VeriSign_Universal_Root_Certification_Authority.pem
+    virtualbox-iso: Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+    virtualbox-iso: Adding debian:CNNIC_ROOT.pem
+    virtualbox-iso: Adding debian:DigiCert_Global_Root_G3.pem
+    virtualbox-iso: Adding debian:TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+    virtualbox-iso: Adding debian:Cybertrust_Global_Root.pem
+    virtualbox-iso: Adding debian:Certplus_Root_CA_G2.pem
+    virtualbox-iso: Adding debian:AddTrust_Public_Services_Root.pem
+    virtualbox-iso: Adding debian:Security_Communication_RootCA2.pem
+    virtualbox-iso: Adding debian:Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+    virtualbox-iso: Adding debian:SecureTrust_CA.pem
+    virtualbox-iso: Adding debian:SZAFIR_ROOT_CA2.pem
+    virtualbox-iso: Adding debian:QuoVadis_Root_CA.pem
+    virtualbox-iso: Adding debian:D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+    virtualbox-iso: Adding debian:Entrust_Root_Certification_Authority_-_EC1.pem
+    virtualbox-iso: Adding debian:LuxTrust_Global_Root_2.pem
+    virtualbox-iso: Adding debian:Swisscom_Root_CA_1.pem
+    virtualbox-iso: Adding debian:GeoTrust_Global_CA.pem
+    virtualbox-iso: Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+    virtualbox-iso: Adding debian:USERTrust_RSA_Certification_Authority.pem
+    virtualbox-iso: Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+    virtualbox-iso: Adding debian:Staat_der_Nederlanden_Root_CA_-_G3.pem
+    virtualbox-iso: Adding debian:DST_ACES_CA_X6.pem
+    virtualbox-iso: Adding debian:SwissSign_Gold_CA_-_G2.pem
+    virtualbox-iso: Adding debian:ACEDICOM_Root.pem
+    virtualbox-iso: Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+    virtualbox-iso: Adding debian:DigiCert_Trusted_Root_G4.pem
+    virtualbox-iso: Adding debian:QuoVadis_Root_CA_3_G3.pem
+    virtualbox-iso: Adding debian:Amazon_Root_CA_4.pem
+    virtualbox-iso: Adding debian:QuoVadis_Root_CA_3.pem
+    virtualbox-iso: Adding debian:GeoTrust_Primary_Certification_Authority_-_G3.pem
+    virtualbox-iso: Adding debian:Staat_der_Nederlanden_EV_Root_CA.pem
+    virtualbox-iso: Adding debian:Staat_der_Nederlanden_Root_CA_-_G2.pem
+    virtualbox-iso: Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+    virtualbox-iso: Adding debian:DigiCert_Global_Root_CA.pem
+    virtualbox-iso: Adding debian:OpenTrust_Root_CA_G1.pem
+    virtualbox-iso: Adding debian:Atos_TrustedRoot_2011.pem
+    virtualbox-iso: Adding debian:AC_RAIZ_FNMT-RCM.pem
+    virtualbox-iso: Adding debian:Amazon_Root_CA_2.pem
+    virtualbox-iso: Adding debian:Entrust_Root_Certification_Authority.pem
+    virtualbox-iso: Adding debian:Amazon_Root_CA_1.pem
+    virtualbox-iso: Adding debian:Comodo_Secure_Services_root.pem
+    virtualbox-iso: Adding debian:IdenTrust_Commercial_Root_CA_1.pem
+    virtualbox-iso: Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+    virtualbox-iso: Adding debian:OISTE_WISeKey_Global_Root_GB_CA.pem
+    virtualbox-iso: Adding debian:Certum_Trusted_Network_CA_2.pem
+    virtualbox-iso: Adding debian:Camerfirma_Global_Chambersign_Root.pem
+    virtualbox-iso: Adding debian:TeliaSonera_Root_CA_v1.pem
+    virtualbox-iso: Adding debian:GlobalSign_ECC_Root_CA_-_R5.pem
+    virtualbox-iso: Adding debian:OpenTrust_Root_CA_G2.pem
+    virtualbox-iso: Adding debian:AddTrust_External_Root.pem
+    virtualbox-iso: Adding debian:TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.pem
+    virtualbox-iso: Adding debian:AffirmTrust_Premium.pem
+    virtualbox-iso: Adding debian:thawte_Primary_Root_CA_-_G3.pem
+    virtualbox-iso: Adding debian:GeoTrust_Global_CA_2.pem
+    virtualbox-iso: Adding debian:PSCProcert.pem
+    virtualbox-iso: Adding debian:QuoVadis_Root_CA_2_G3.pem
+    virtualbox-iso: Adding debian:Swisscom_Root_CA_2.pem
+    virtualbox-iso: Adding debian:Certplus_Class_2_Primary_CA.pem
+    virtualbox-iso: Adding debian:Buypass_Class_3_Root_CA.pem
+    virtualbox-iso: Adding debian:certSIGN_ROOT_CA.pem
+    virtualbox-iso: Adding debian:Izenpe.com.pem
+    virtualbox-iso: Adding debian:Starfield_Class_2_CA.pem
+    virtualbox-iso: Adding debian:AddTrust_Low-Value_Services_Root.pem
+    virtualbox-iso: Adding debian:Chambers_of_Commerce_Root_-_2008.pem
+    virtualbox-iso: Adding debian:GlobalSign_Root_CA.pem
+    virtualbox-iso: Adding debian:thawte_Primary_Root_CA_-_G2.pem
+    virtualbox-iso: Adding debian:Baltimore_CyberTrust_Root.pem
+    virtualbox-iso: Adding debian:Visa_eCommerce_Root.pem
+    virtualbox-iso: Adding debian:TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.pem
+    virtualbox-iso: Adding debian:AddTrust_Qualified_Certificates_Root.pem
+    virtualbox-iso: Adding debian:GlobalSign_Root_CA_-_R2.pem
+    virtualbox-iso: Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+    virtualbox-iso: Adding debian:Buypass_Class_2_Root_CA.pem
+    virtualbox-iso: Adding debian:SwissSign_Silver_CA_-_G2.pem
+    virtualbox-iso: Adding debian:D-TRUST_Root_Class_3_CA_2_2009.pem
+    virtualbox-iso: Adding debian:E-Tugra_Certification_Authority.pem
+    virtualbox-iso: Adding debian:OpenTrust_Root_CA_G3.pem
+    virtualbox-iso: Adding debian:DigiCert_Assured_ID_Root_CA.pem
+    virtualbox-iso: Adding debian:CA_Disig_Root_R2.pem
+    virtualbox-iso: done.
+    virtualbox-iso: Setting up openjdk-8-jre:amd64 (8u151-b12-0ubuntu0.16.04.2) ...
+    virtualbox-iso: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/policytool to provide /usr/bin/policytool (policytool) in auto mode
+    virtualbox-iso: Processing triggers for libc-bin (2.23-0ubuntu9) ...
+    virtualbox-iso: Processing triggers for systemd (229-4ubuntu19) ...
+    virtualbox-iso: Processing triggers for ureadahead (0.100.0-19) ...
+    virtualbox-iso: Processing triggers for ca-certificates (20170717~16.04.1) ...
+    virtualbox-iso: Updating certificates in /etc/ssl/certs...
+    virtualbox-iso: 0 added, 0 removed; done.
+    virtualbox-iso: Running hooks in /etc/ca-certificates/update.d...
+    virtualbox-iso:
+    virtualbox-iso: done.
+    virtualbox-iso: done.
+    virtualbox-iso: + sudo -H pip3 install --upgrade pip
+    virtualbox-iso: Collecting pip
+    virtualbox-iso: Downloading pip-9.0.1-py2.py3-none-any.whl (1.3MB)
+    virtualbox-iso: Installing collected packages: pip
+    virtualbox-iso: Found existing installation: pip 8.1.1
+    virtualbox-iso: Not uninstalling pip at /usr/lib/python3/dist-packages, outside environment /usr
+    virtualbox-iso: Successfully installed pip-9.0.1
+    virtualbox-iso: + sudo -H pip3 install /opt/wwa/wwa_app_example-1.0.1508506802-py3-none-any.whl
+    virtualbox-iso: Processing /opt/wwa/wwa_app_example-1.0.1508506802-py3-none-any.whl
+    virtualbox-iso: Collecting pandas==0.20.3 (from wwa-app-example==1.0.1508506802)
+    virtualbox-iso: Downloading pandas-0.20.3-cp35-cp35m-manylinux1_x86_64.whl (24.0MB)
+    virtualbox-iso: Collecting numpy==1.13.1 (from wwa-app-example==1.0.1508506802)
+    virtualbox-iso: Downloading numpy-1.13.1-cp35-cp35m-manylinux1_x86_64.whl (16.9MB)
+    virtualbox-iso: Collecting scipy==0.19.1 (from wwa-app-example==1.0.1508506802)
+    virtualbox-iso: Downloading scipy-0.19.1-cp35-cp35m-manylinux1_x86_64.whl (47.9MB)
+    virtualbox-iso: Collecting scikit-learn==0.19.0 (from wwa-app-example==1.0.1508506802)
+    virtualbox-iso: Downloading scikit_learn-0.19.0-cp35-cp35m-manylinux1_x86_64.whl (12.3MB)
+    virtualbox-iso: Collecting python-dateutil>=2 (from pandas==0.20.3->wwa-app-example==1.0.1508506802)
+    virtualbox-iso: Downloading python_dateutil-2.6.1-py2.py3-none-any.whl (194kB)
+    virtualbox-iso: Collecting pytz>=2011k (from pandas==0.20.3->wwa-app-example==1.0.1508506802)
+    virtualbox-iso: Downloading pytz-2017.3-py2.py3-none-any.whl (511kB)
+    virtualbox-iso: Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2->pandas==0.20.3->wwa-app-example==1.0.1508506802)
+    virtualbox-iso: Installing collected packages: numpy, python-dateutil, pytz, pandas, scipy, scikit-learn, wwa-app-example
+    virtualbox-iso: Successfully installed numpy-1.13.1 pandas-0.20.3 python-dateutil-2.6.1 pytz-2017.3 scikit-learn-0.19.0 scipy-0.19.1 wwa-app-example-1.0.1508506802
+    virtualbox-iso: + sudo mv /opt/wwa/app-example.service /etc/systemd/system
+    virtualbox-iso: + sudo mv /opt/wwa/wwa_devops.service /etc/systemd/system
+    virtualbox-iso: + sudo mv /opt/wwa/wwa_devops.timer /etc/systemd/system
+    virtualbox-iso: + sudo systemctl enable app-example.service
+    virtualbox-iso: Created symlink from /etc/systemd/system/multi-user.target.wants/app-example.service to /etc/systemd/system/app-example.service.
+    virtualbox-iso: + sudo systemctl enable wwa_devops.timer
+    virtualbox-iso: Created symlink from /etc/systemd/system/timers.target.wants/wwa_devops.timer to /etc/systemd/system/wwa_devops.timer.
+==> virtualbox-iso: Provisioning with shell script: scripts/cleanup.sh
+    virtualbox-iso: + sudo apt-get clean
+==> virtualbox-iso: Provisioning with shell script: scripts/minimize.sh
+    virtualbox-iso: + sudo dd if=/dev/zero of=/EMPTY bs=1M
+    virtualbox-iso: dd: error writing '/EMPTY': No space left on device
+    virtualbox-iso: 4475+0 records in
+    virtualbox-iso: 4474+0 records out
+    virtualbox-iso: 4691804160 bytes (4.7 GB, 4.4 GiB) copied, 7.71499 s, 608 MB/s
+    virtualbox-iso: + :
+    virtualbox-iso: + sudo rm /EMPTY
+    virtualbox-iso: + uniq
+    virtualbox-iso: + sudo /sbin/blkid -t TYPE=swap -o value -s UUID
+    virtualbox-iso: + swap_device_uuid=1b4c8aa4-17a7-4592-9f05-8b6eab541367
+    virtualbox-iso: + uniq
+    virtualbox-iso: + sudo /sbin/blkid -t TYPE=swap -o value -s LABEL
+    virtualbox-iso: + swap_device_label=
+    virtualbox-iso: + [ -n 1b4c8aa4-17a7-4592-9f05-8b6eab541367 ]
+    virtualbox-iso: + readlink -f /dev/disk/by-uuid/1b4c8aa4-17a7-4592-9f05-8b6eab541367
+    virtualbox-iso: + swap_device=/dev/sda2
+    virtualbox-iso: + sudo /sbin/swapoff /dev/sda2
+    virtualbox-iso: + sudo dd if=/dev/zero of=/dev/sda2 bs=1M
+    virtualbox-iso: dd: error writing '/dev/sda2': No space left on device
+    virtualbox-iso: 1023+0 records in
+    virtualbox-iso: 1022+0 records out
+    virtualbox-iso: 1071644672 bytes (1.1 GB, 1022 MiB) copied, 1.70707 s, 628 MB/s
+    virtualbox-iso: + :
+    virtualbox-iso: + sudo /sbin/mkswap -U 1b4c8aa4-17a7-4592-9f05-8b6eab541367 /dev/sda2
+    virtualbox-iso: Setting up swapspace version 1, size = 1022 MiB (1071640576 bytes)
+    virtualbox-iso: no label, UUID=1b4c8aa4-17a7-4592-9f05-8b6eab541367
+==> virtualbox-iso: Gracefully halting virtual machine...
+==> virtualbox-iso: Preparing to export machine...
+    virtualbox-iso: Deleting forwarded port mapping for the communicator (SSH, WinRM, etc) (host port 2893)
+==> virtualbox-iso: Exporting virtual machine...
+    virtualbox-iso: Executing: export packer-ubuntu-16.04-amd64 --output output-ubuntu-16.04-amd64-virtualbox-iso/packer-ubuntu-16.04-amd64.ovf
+==> virtualbox-iso: Unregistering and deleting virtual machine...
+Build 'virtualbox-iso' finished.
+
+==> Builds finished. The artifacts of successful builds are:
+--> virtualbox-iso: VM files in directory: output-ubuntu-16.04-amd64-virtualbox-iso

@@ -8,9 +8,13 @@ error_handler () {
     echo "on line ${BASH_LINENO[0]}"
     exit $errcode
 }
-trap error_handler ERR
 
-PROJECTS_ZIP="/tmp/package.zip"
+if [ ! -f "${PROJECTS_ZIP}" ]; then
+  echo "Environment variable PROJECTS_ZIP does not point to a valid file"
+  exit 1
+fi
+
+trap error_handler ERR
 
 SCRIPT=$(readlink -f $0)
 SCRIPTPATH=$(dirname $SCRIPT)
@@ -27,14 +31,14 @@ mkdir "${PROJECT_HOME}"
 unzip "${PROJECTS_ZIP}" -d "${PROJECT_HOME}"
 
 #5.1
-(cd "${PROJECT_HOME}/java/lib-example" && mvn org.codehaus.mojo:versions-maven-plugin:2.5:set -DremoveSnapshot -DgenerateBackupPoms=false)
-(cd "${PROJECT_HOME}/java/lib-example" && mvn clean install)
+(cd "${PROJECT_HOME}/java/lib-example" && mvn -B org.codehaus.mojo:versions-maven-plugin:2.5:set -DremoveSnapshot -DgenerateBackupPoms=false)
+(cd "${PROJECT_HOME}/java/lib-example" && mvn -B clean install)
 
 #5.2
-(cd "${PROJECT_HOME}/java/app-example" && mvn org.codehaus.mojo:versions-maven-plugin:2.5:use-latest-versions -Dincludes='com.wwa.*:*' -DgenerateBackupPoms=false)
-(cd "${PROJECT_HOME}/java/app-example" && mvn org.codehaus.mojo:versions-maven-plugin:2.5:set -DremoveSnapshot -DgenerateBackupPoms=false)
-(cd "${PROJECT_HOME}/java/app-example" && mvn clean package)
-JAVA_APP_VERSION=$(cd "${PROJECT_HOME}/java/app-example" && mvn -q -Dexec.executable="echo" -Dexec.args='${project.version}' --non-recursive org.codehaus.mojo:exec-maven-plugin:1.3.1:exec)
+(cd "${PROJECT_HOME}/java/app-example" && mvn -B org.codehaus.mojo:versions-maven-plugin:2.5:use-latest-versions -Dincludes='com.wwa.*:*' -DgenerateBackupPoms=false)
+(cd "${PROJECT_HOME}/java/app-example" && mvn -B org.codehaus.mojo:versions-maven-plugin:2.5:set -DremoveSnapshot -DgenerateBackupPoms=false)
+(cd "${PROJECT_HOME}/java/app-example" && mvn -B clean package)
+JAVA_APP_VERSION=$(cd "${PROJECT_HOME}/java/app-example" && mvn -B -q -Dexec.executable="echo" -Dexec.args='${project.version}' --non-recursive org.codehaus.mojo:exec-maven-plugin:1.3.1:exec)
 (cd "${PROJECT_HOME}/java/app-example" && java -jar "target/app-example-${JAVA_APP_VERSION}.jar")
 
 #5.3
@@ -51,10 +55,9 @@ PYTHON_APP_VERSION=$(cd "${PROJECT_HOME}/python/wwa_app_example" && cat version.
 
 rm -rf "${SCRIPTPATH}"/output-ubuntu-16.04-amd64-virtualbox-iso
 
-(cd "${SCRIPTPATH}" && packer build \
+(cd "${SCRIPTPATH}" && packer build -color=false \
   -only=virtualbox-iso \
   -var disk_size=8000 \
-  -var iso_url="${SCRIPTPATH}/ubuntu-16.04.3-server-amd64.iso" \
   -var java="${PROJECT_HOME}/java/app-example/target/app-example-${JAVA_APP_VERSION}.jar" \
   -var python_path="${PROJECT_HOME}/python/wwa_app_example/dist" \
   -var python_file="wwa_app_example-${PYTHON_APP_VERSION}-py3-none-any.whl" \
